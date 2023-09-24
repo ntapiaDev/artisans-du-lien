@@ -18,12 +18,16 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-.primary-card {
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
+.primary-card,
+.secondary-card {
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.primary-card {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 .secondary-card {
