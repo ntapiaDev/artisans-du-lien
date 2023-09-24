@@ -1,6 +1,6 @@
 <aside>
 	<h1>
-		<span>Les <img src="icons/icon1.png" alt="" /></span>
+		<span>Les <img src="icons/landing.png" alt="" /></span>
 		<span>artisans</span>
 		<span>du lien <img src="icons/house.png" alt="" /></span>
 	</h1>
@@ -26,6 +26,9 @@
 			display: inline-flex;
 			flex-direction: column;
 			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+			@media screen and (max-width: 1024px) {
+				font-size: 2.5em;
+			}
 
 			span:nth-child(1) {
 				display: flex;
@@ -39,6 +42,7 @@
 			span:nth-child(3) {
 				display: flex;
 				align-items: flex-end;
+				justify-content: space-between;
 				img {
 					margin-left: 1em;
 					width: 150px;
@@ -51,12 +55,18 @@
 
 		div {
 			font-size: 3.8em;
+			@media screen and (max-width: 1024px) {
+				font-size: 1.8em;
+			}
 		}
 
 		h2 {
 			margin-top: 0.5em;
 			font-size: 2.5em;
 			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+			@media screen and (max-width: 1024px) {
+				font-size: 1.5em;
+			}
 		}
 	}
 </style>

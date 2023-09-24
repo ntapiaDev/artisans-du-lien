@@ -1,5 +1,6 @@
 <script>
-	import Date from '../components/home/Date.svelte';
+	import Atrium from '../components/home/Atrium.svelte';
+import Date from '../components/home/Date.svelte';
 	import Header from '../components/home/Header.svelte';
 	import Landing from '../components/home/Landing.svelte';
 	import Video from '../components/home/Video.svelte';
@@ -14,6 +15,7 @@
 	</section>
 	<section>
 		<Date />
+        <Atrium />
 	</section>
 </main>
 

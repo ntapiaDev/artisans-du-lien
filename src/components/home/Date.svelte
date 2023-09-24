@@ -13,6 +13,7 @@
 
 <style lang="scss">
 	.container {
+		margin: 1em 0 2em;
 		padding: 0 1em;
 		display: flex;
 		gap: 1em;
@@ -25,20 +26,16 @@
 			h3 {
 				padding-left: 1em;
 				font-size: 2em;
-				@media screen and (max-width: 768px) {
-					font-size: 3em;
-				}
 			}
 			p {
 				margin-top: 1em;
 				color: var(--secondary-color);
-				@media screen and (max-width: 768px) {
-					font-size: 2em;
-				}
+				font-size: 1.5em;
 			}
 		}
 
 		.date {
+			min-width: 325px;
 			margin-right: 90px;
 			padding-left: 1em;
 			padding-right: calc(1em + 90px);
@@ -46,8 +43,10 @@
 			font-size: 2em;
 			position: relative;
 			@media screen and (max-width: 768px) {
-				height: 100px;
-				font-size: 2.8em;
+				min-width: 0;
+				height: 110px;
+				font-size: 1.5em;
+				padding-right: calc(1em + 60px);
 			}
 			.digit {
 				width: 180px;
@@ -63,9 +62,9 @@
 				justify-content: center;
 				align-items: center;
 				@media screen and (max-width: 768px) {
-					width: 120px;
-					height: 120px;
-					top: -10px;
+					width: 125px;
+					height: 125px;
+					top: -8px;
 					font-size: 4.2em;
 				}
 			}
