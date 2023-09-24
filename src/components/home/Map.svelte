@@ -23,6 +23,7 @@
 
 <style lang="scss">
     #map {
+        width: 350px;
         height: 350px;
     }
 </style>

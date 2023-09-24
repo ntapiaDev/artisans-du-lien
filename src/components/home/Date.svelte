@@ -28,7 +28,8 @@
 				font-size: 2em;
 			}
 			p {
-				margin-top: 1em;
+				margin-top: 0.5em;
+				margin-left: 0.5em;
 				color: var(--secondary-color);
 				font-size: 1.5em;
 			}

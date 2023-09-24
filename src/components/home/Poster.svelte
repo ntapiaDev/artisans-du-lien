@@ -12,11 +12,11 @@
         min-height: 100vh;
 
         .man {
-            
+            max-width: 100%;
         }
 
         .woman {
-
+            max-width: 100%;
         }
     }
 </style>

@@ -66,13 +66,16 @@
                 width: 100%;
                 font-size: 2em;
                 text-align: center;
+                position: relative;
+                top: -0.75em;
             }
             .round {
                 border-radius: 1em;
             }
 
             p {
-                padding: 1em;
+                padding: 0 1em 1em;
+                text-align: center;
             }
             
             a {

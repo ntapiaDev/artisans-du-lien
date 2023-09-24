@@ -5,7 +5,6 @@
 	import Footer from '../components/home/Footer.svelte';
 	import Header from '../components/home/Header.svelte';
 	import Landing from '../components/home/Landing.svelte';
-	import Map from '../components/home/Map.svelte';
 	import Poster from '../components/home/Poster.svelte';
 	import Video from '../components/home/Video.svelte';
 </script>
@@ -22,7 +21,6 @@
 		<Atrium />
 		<Poster />
 		<Discover />
-		<Map />
 		<Footer />
 	</section>
 </main>

@@ -40,8 +40,15 @@
             }
 
 			div {
+				margin-left: 0.5em;
 				padding: 0;
 				flex-grow: 0;
+				color: var(--secondary-color);
+				font-size: 1.25em;
+
+				@media screen and (max-width: 1024px) {
+					margin-top: 0.5em;
+            	}
 			}
         }
 
