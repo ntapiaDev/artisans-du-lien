@@ -53,13 +53,13 @@
                 background-position: center;
             }
             .image-1 {
-                background-image: url('photos/program.png');
+                background-image: url('../../../static/photos/program.png');
             }
             .image-2 {
-                background-image: url('photos/exponents.png');
+                background-image: url('../../../static/photos/exponents.png');
             }  
             .image-3 {
-                background-image: url('photos/employers.png');
+                background-image: url('../../../static/photos/employers.png');
             }
 
             h3 {
