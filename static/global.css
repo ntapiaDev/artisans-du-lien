@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ff7f50;
+    --secondary-color: #54043e;
+}
+
+.primary-card {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.secondary-card {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+body {
+    @media screen and (max-width: 1280px) {
+        font-size: 0.8em;
+    }
+    @media screen and (max-width: 1024px) {
+        font-size: 0.5em;
+    }
+}

@@ -1,7 +1,12 @@
 <script>
-	import Video from "../components/video/Video.svelte";
+	import Header from "../components/home/Header.svelte";
+	import Landing from "../components/home/Landing.svelte";
+    import Video from "../components/home/Video.svelte";
 </script>
 
 <Video />
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<main>
+    <Header />
+    <Landing />
+</main>
