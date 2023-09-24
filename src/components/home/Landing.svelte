@@ -25,6 +25,7 @@
 			text-transform: uppercase;
 			display: inline-flex;
 			flex-direction: column;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 			span:nth-child(1) {
 				display: flex;
@@ -55,6 +56,7 @@
 		h2 {
 			margin-top: 0.5em;
 			font-size: 2.5em;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 		}
 	}
 </style>

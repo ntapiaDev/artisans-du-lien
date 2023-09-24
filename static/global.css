@@ -16,7 +16,6 @@
 .primary-card {
     color: var(--primary-color);
     background-color: var(--secondary-color);
-    font-family: 'Oswald', sans-serif;
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
@@ -28,6 +27,7 @@
 }
 
 body {
+    font-family: 'Oswald', sans-serif;
     @media screen and (max-width: 1280px) {
         font-size: 0.8em;
     }
