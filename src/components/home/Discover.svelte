@@ -21,6 +21,8 @@
 
 <style lang="scss">
     .container {
+        max-width: 1280px;
+        margin: auto;
         padding: 1em;
         display: grid;
         grid-template-columns: repeat(3, 1FR);
@@ -74,6 +76,7 @@
             }
 
             p {
+                width: 100%;
                 padding: 0 1em 1em;
                 text-align: center;
             }
