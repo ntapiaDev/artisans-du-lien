@@ -23,7 +23,6 @@
         color: var(--secondary-color);
         background-color: var(--background-color);
         display: flex;
-        justify-content: space-between;
         @media screen and (max-width: 1024px) {
             flex-direction: column-reverse;
             align-items: center;
@@ -46,6 +45,8 @@
 
         .footer {
             width: 100%;
+            height: 50px;
+            margin-top: auto;
             color: #ffffff;
             background-color: var(--secondary-color);
             display: flex;

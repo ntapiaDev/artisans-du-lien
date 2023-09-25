@@ -21,8 +21,8 @@
 
 <style lang="scss">
     .container {
-        max-width: 1280px;
-        margin: auto;
+        // max-width: 1280px;
+        // margin: auto;
         padding: 1em;
         display: grid;
         grid-template-columns: repeat(3, 1FR);
@@ -55,13 +55,13 @@
                 background-position: center;
             }
             .image-1 {
-                background-image: url('../../../static/photos/program.png');
+                background-image: url('$lib/bg-img/program.png');
             }
             .image-2 {
-                background-image: url('../../../static/photos/exponents.png');
+                background-image: url('$lib/bg-img/exponents.png');
             }  
             .image-3 {
-                background-image: url('../../../static/photos/employers.png');
+                background-image: url('$lib/bg-img/employers.png');
             }
 
             h3 {
