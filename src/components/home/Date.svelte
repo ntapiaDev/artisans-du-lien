@@ -4,9 +4,9 @@
 		<p>Venez participer aux ateliers, rencontrer des professionnels et découvrir des outils et dispositifs innovants pour accompagner à domicile.</p>
 	</div>
 	<div class="date primary-card">
-		<div>Le vendredi</div>
-		<div>novembre</div>
-		<div>de 10h à 16h</div>
+		<div>Le lundi</div>
+		<div>novembre de</div>
+		<div>9h30 à 16h30</div>
 		<div class="digit secondary-card">13</div>
 	</div>
 </div>
@@ -36,10 +36,9 @@
 		}
 
 		.date {
-			min-width: 325px;
+			min-width: 350px;
 			margin-right: 90px;
 			padding-left: 1em;
-			padding-right: calc(1em + 90px);
 			height: 150px;
 			font-size: 2em;
 			position: relative;
@@ -47,7 +46,6 @@
 				min-width: 0;
 				height: 110px;
 				font-size: 1.5em;
-				padding-right: calc(1em + 60px);
 			}
 			.digit {
 				width: 180px;

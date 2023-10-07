@@ -16,7 +16,6 @@
 
 		h1,
 		h2 {
-			color: #ffffff;
 			font-family: 'Open Sans', sans-serif;
 		}
 
@@ -25,14 +24,15 @@
 			text-transform: uppercase;
 			display: inline-flex;
 			flex-direction: column;
-			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+			color: var(--tertiary-color);
+			text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 			@media screen and (max-width: 1024px) {
 				font-size: 2.5em;
 			}
 
 			span:nth-child(1) {
 				display: flex;
-				justify-content: space-between;
+				gap: 1em;
 				align-items: baseline;
 				img {
 					width: 150px;
@@ -63,6 +63,7 @@
 		h2 {
 			margin-top: 0.5em;
 			font-size: 2.5em;
+			color: #ffffff;
 			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 			@media screen and (max-width: 1024px) {
 				font-size: 1.5em;

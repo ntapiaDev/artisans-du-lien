@@ -4,16 +4,13 @@
 <footer>
     <div>
         <div>
-            <h3>A propos de nous</h3>
-            <div>Contenu à ajouter</div>
-            <div>Contenu à ajouter</div>
+            <h3>Greta Grand Quevilly</h3>
+            <div>17 avenue Franklin Roosevelt</div>
+            <div>76120 Grand Quevilly</div>
+            <div>02.32.11.01.06</div>
+            <div><a href="mailto:grand-quevilly@greta-rouen.fr?subject=Artisans du lien">grand-quevilly@greta-rouen.fr</a></div>
         </div>
-        <div>
-            <h3>A propos de nous</h3>
-            <div>Contenu à ajouter</div>
-            <div>Contenu à ajouter</div>
-        </div>
-        <div class="footer">Blabla</div>
+        <div class="footer">Les artisans du lien - Lundi 13 novembre 2023</div>
     </div>
     <Map />
 </footer>
