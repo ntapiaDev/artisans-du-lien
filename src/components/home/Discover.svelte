@@ -3,19 +3,19 @@
         <div class="image image-1"></div>
         <h3 class="secondary-card round">Le programme</h3>
         <p>Découvrez les temps forts de la journée : les intervenants, tables rondes, projections, animations et ateliers.</p>
-        <a href="" class="secondary-card round">Découvrir <img src="icons/violet-arrow.png" alt=""></a>
+        <a href="programme.pdf" class="secondary-card round">Découvrir <img src="icons/violet-arrow.png" alt=""></a>
     </div>
     <div class="card">
         <div class="image image-2"></div>
         <h3 class="primary-card round">Les exposants</h3>
         <p>Plus d’une trentaine d’acteurs ont répondu présents pour vous faire découvrir leurs services et produits.</p>
-        <a href="" class="primary-card round">Découvrir <img src="icons/orange-arrow.png" alt=""></a>
+        <a href="exposants" class="primary-card round">Découvrir <img src="icons/orange-arrow.png" alt=""></a>
     </div>
     <div class="card">
         <div class="image image-3"></div>
         <h3 class="secondary-card round">Les partenaires</h3>
         <p>Retrouvez les contacts de nos partenaires.</p>
-        <a href="" class="secondary-card round">Découvrir <img src="icons/violet-arrow.png" alt=""></a>
+        <a href="partenaires" class="secondary-card round">Découvrir <img src="icons/violet-arrow.png" alt=""></a>
     </div>
 </div>
 

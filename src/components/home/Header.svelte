@@ -1,15 +1,15 @@
 <script>
 	let isBurgerOpen = false;
-	const toggleBurger = () => (isBurgerOpen = !isBurgerOpen);
+	// const toggleBurger = () => (isBurgerOpen = !isBurgerOpen);
 </script>
 
 <header>
-	<img src="logos/greta.png" alt="" />
+	<a href="/"><img src="logos/greta.png" alt="" /></a>
 	<nav>
 		<ul>
-			<li><a href="" class="primary-card">Programme</a></li>
-			<li><a href="" class="primary-card">Exposants</a></li>
-			<li><a href="" class="primary-card">Partenaires</a></li>
+			<li><a href="programme.pdf" class="primary-card">Programme</a></li>
+			<li><a href="exposants" class="primary-card">Exposants</a></li>
+			<li><a href="partenaires" class="primary-card">Partenaires</a></li>
 		</ul>
 	</nav>
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -50,43 +50,43 @@
 			}
 		}
 
-		.burger {
-			width: 30px;
-			height: 20px;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-			cursor: pointer;
+		// .burger {
+		// 	width: 30px;
+		// 	height: 20px;
+		// 	display: flex;
+		// 	flex-direction: column;
+		// 	justify-content: space-between;
+		// 	cursor: pointer;
 
-			@media screen and (min-width: 768px) {
-				display: none;
-			}
+		// 	@media screen and (min-width: 768px) {
+		// 		display: none;
+		// 	}
 
-			.line {
-				width: 30px;
-				height: 4px;
-				background-color: var(--primary-color);
-				transition: all 0.3s ease;
-			}
+		// 	.line {
+		// 		width: 30px;
+		// 		height: 4px;
+		// 		background-color: var(--primary-color);
+		// 		transition: all 0.3s ease;
+		// 	}
 
-			.line1-active,
-			.line2-active,
-			.line3-active {
-				background-color: var(--secondary-color);
-			}
+		// 	.line1-active,
+		// 	.line2-active,
+		// 	.line3-active {
+		// 		background-color: var(--secondary-color);
+		// 	}
 
-			.line1-active {
-				transform: translateY(8px) rotate(45deg);
-			}
+		// 	.line1-active {
+		// 		transform: translateY(8px) rotate(45deg);
+		// 	}
 
-			.line2-active {
-				opacity: 0;
-				transform: translateX(-100vw);
-			}
+		// 	.line2-active {
+		// 		opacity: 0;
+		// 		transform: translateX(-100vw);
+		// 	}
 
-			.line3-active {
-				transform: translateY(-8px) rotate(-45deg);
-			}
-		}
+		// 	.line3-active {
+		// 		transform: translateY(-8px) rotate(-45deg);
+		// 	}
+		// }
 	}
 </style>
