@@ -1,13 +1,17 @@
 <script>
-	let isBurgerOpen = false;
+	import { page } from '$app/stores';
 	// const toggleBurger = () => (isBurgerOpen = !isBurgerOpen);
 </script>
 
 <header>
-	<a href="/"><img src="logos/greta.png" alt="" /></a>
+	{#if $page.url.pathname === '/'}
+		<a href="/"><img src="logos/greta.png" alt="" /></a>
+	{:else}
+		<a href="/" class="primary-card home">Accueil</a>
+	{/if}
 	<nav>
 		<ul>
-			<li><a href="programme.pdf" class="primary-card">Programme</a></li>
+			<li><a href="programme.pdf" class="primary-card" target="_blank">Programme</a></li>
 			<li><a href="exposants" class="primary-card">Exposants</a></li>
 			<li><a href="partenaires" class="primary-card">Partenaires</a></li>
 		</ul>
@@ -32,6 +36,12 @@
 			@media screen and (max-width: 768px) {
 				height: 75px;
 			}
+		}
+
+		.home {
+			padding: 0.25em 1em;
+			font-size: 1.5em;
+			text-decoration: none;
 		}
 
 		nav {

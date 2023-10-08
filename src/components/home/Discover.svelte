@@ -3,7 +3,7 @@
         <div class="image image-1"></div>
         <h3 class="secondary-card round">Le programme</h3>
         <p>Découvrez les temps forts de la journée : les intervenants, tables rondes, projections, animations et ateliers.</p>
-        <a href="programme.pdf" class="secondary-card round">Découvrir <img src="icons/violet-arrow.png" alt=""></a>
+        <a href="programme.pdf" class="secondary-card round" target="_blank">Découvrir <img src="icons/violet-arrow.png" alt=""></a>
     </div>
     <div class="card">
         <div class="image image-2"></div>

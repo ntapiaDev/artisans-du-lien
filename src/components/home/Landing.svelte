@@ -24,8 +24,8 @@
 			text-transform: uppercase;
 			display: inline-flex;
 			flex-direction: column;
-			color: var(--tertiary-color);
-			text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+			color: #ffffff;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 			@media screen and (max-width: 1024px) {
 				font-size: 2.5em;
 			}

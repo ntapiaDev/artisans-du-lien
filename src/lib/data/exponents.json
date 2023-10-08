@@ -180,7 +180,7 @@
         "name": "LES MENUS SERVICES",
         "title": "La recette d'une bonne journée",
         "description": "Des services à domicile de qualité accompagnés de propositions de repas savoureuses, variées et équilibrées directement livrées chez vous... Un chef dans chacun de nos plats. Chaque semaine, profitez d’un large choix de menus de saison et optez pour la formule adaptée à vos besoins. Mais aussi Préservez et enrichir le lien social ,un interlocuteur privilégié pour un moment d’échange chaleureux et convivial à chaque livraison permet de préserver le lien social indispensable au bien-être de nos aînés tout en assurant une veille régulière.",
-        "contact": ["rouen-ouest@les-menus-services.com", "rouen-est@les-menus-services.com"],
+        "contact": ["rouen-est@les-menus-services.com", "rouen-ouest@les-menus-services.com"],
         "website": "https://www.les-menus-services.com"
     },
     {
@@ -262,5 +262,13 @@
         "description": "Nous proposons de la Vente et de la Location de Matériel Médical. Aides techniques, Fauteuil Roulant, Matériel de maintien à domicile.",
         "contact": "Contact.lessentiel27@gmail.com",
         "website": "https://www.facebook.com/Lessentiel27"
+    },
+    {
+        "icon": "leroy-merlin-source.jpg",
+        "name": "LEROY MERLIN SOURCE",
+        "title": "",
+        "description": "LEROY MERLIN Source, réseau de recherche sur l'habitat de LEROY MERLIN France, réunit depuis 2005 des chercheurs, des professionnels et des acteurs de l’habitat pour créer et diffuser des savoirs originaux sur les nouvelles manières de vivre et d’habiter.",
+        "contact": "",
+        "website": "https://www.leroymerlinsource.fr"
     }
 ]

@@ -26,7 +26,18 @@
 	.head {
 		padding: 0.01em;
 		background-image: url('$lib/bg-img/exposants.png');
-		background-size: 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
+	}
+
+	.grid {
+		margin: 1em;
+		display: grid;
+		grid-template-columns: repeat(2, 1FR);
+		gap: 1em;
+
+		@media screen and (max-width: 768px) {
+			display: block;
+		}
 	}
 </style>

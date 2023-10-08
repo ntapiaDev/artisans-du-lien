@@ -9,7 +9,7 @@
 		display: inline-block;
 
 		@media screen and (max-width: 768px) {
-			margin: 0;
+			margin: 2em 0 1em;
 		}
 
 		.primary-card,
@@ -23,7 +23,7 @@
 			font-size: 3em;
 
 			@media screen and (max-width: 768px) {
-				font-size: 1em;
+				font-size: 1.5em;
 			}
 		}
 
@@ -32,7 +32,7 @@
 			font-size: 4em;
 
 			@media screen and (max-width: 768px) {
-				font-size: 1em;
+				font-size: 2em;
 			}
 		}
 	}

@@ -2,9 +2,15 @@
     import { onMount } from 'svelte';
 
     onMount(() => {
-        const map = L.map('map').setView([49.428735, 1.080065], 16);
+        const map = L.map('map').setView([49.428735, 1.080065], 17);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-        const marker = L.marker([49.428735, 1.080065]).addTo(map);
+
+        const icon = L.icon({
+            iconUrl: 'icons/marker.png',
+            iconAnchor: [12, 40]
+        });
+
+        const marker = L.marker([49.428735, 1.080065], { icon: icon }).addTo(map);
     });
 </script>
 
@@ -19,11 +25,23 @@
     </script>
 </svelte:head>
 
-<div id="map"></div>
+<div id="map">
+    <div class="primary-card">Venir à l'Atrium</div>
+</div>
 
 <style lang="scss">
     #map {
         width: 350px;
         height: 350px;
+        position: relative;
+
+        div {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 0.25em 1em;
+            font-size: 1.5em;
+            z-index: 999;
+        }
     }
 </style>
