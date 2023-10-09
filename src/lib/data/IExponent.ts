@@ -4,5 +4,6 @@ export default interface IExponent {
     title: string,
     description: string,
     contact: string | string[],
-    website: string
+    website: string,
+    video: string
 }

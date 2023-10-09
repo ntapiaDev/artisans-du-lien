@@ -5,8 +5,9 @@
 		<div class="flex">
 			<div class="infos">
 				<div>115 Boulevard de l'Europe - 76100 ROUEN</div>
-				<div>Pour tout renseignement : 02.32.11.01.06</div>
-				<div>(GRETA de GRAND-QUEVILLY)</div>
+				<div><u>Pour tout renseignement :</u></div>
+				<div>Greta Rouen Maritime - Antenne de Grand Quevilly</div>
+				<div>02.32.11.01.06</div>
 			</div>
 			<div class="links">
 				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdhgABC-u2llTKw2tGmVNhLKAso-tlce2iHSuAFMt9_V6MG2w/viewform?usp=sf_link" target="_blank" class="primary-card">Inscription individuelle</a>
@@ -62,7 +63,7 @@
 				.links {
 					display: flex;
 					flex-direction: column;
-					gap: 1em;
+					gap: 0.5em;
 					color: var(--secondary-color);
 					font-size: 1.25em;
 

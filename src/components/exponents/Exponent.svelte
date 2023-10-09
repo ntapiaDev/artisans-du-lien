@@ -2,6 +2,18 @@
 	import type IExponent from '$lib/data/IExponent';
 
 	export let exponent: IExponent;
+
+	let showVideo = false;
+
+	const openModale = () => {
+		showVideo = true;
+		document.body.classList.add('modalOpen');
+	}
+
+	const closeModale = () => {
+		showVideo = false;
+		document.body.classList.remove('modalOpen');
+	}
 </script>
 
 <div class="card">
@@ -49,6 +61,18 @@
 			{/if}
 		</span>
 	</div>
+	{#if exponent.video}
+		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y-no-static-element-interactions -->
+		<div class="toggle-video" on:click={openModale} >Afficher la vidéo de présentation</div>
+		{#if showVideo}
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
+			<!-- svelte-ignore a11y-no-static-element-interactions -->
+			<div class="video" on:click={closeModale}>
+				<iframe src={'https://www.youtube.com/embed/' + exponent.video} title={'Vidéo de présentation de ' + exponent.name} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+		{/if}
+	{/if}
 </div>
 
 <style lang="scss">
@@ -164,6 +188,37 @@
 						width: 30px;
 						height: 30px;
 					}
+				}
+			}
+		}
+
+		.toggle-video {
+			padding: 1em;
+			background-color: var(--secondary-color);
+			color: #ffffff;
+			text-align: center;
+			cursor: pointer;
+		}
+
+		.video {
+			width: 100%;
+			height: 100vh;
+			position: fixed;
+			top: 0;
+			left: 0;
+			background-color: rgb(0, 0, 0, 0.75);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 1000;
+
+			iframe {
+				width: 1120px;
+				height: 630px;
+
+				@media screen and (max-width: 768px) {
+					width: 100%;
+					height: 50vh;
 				}
 			}
 		}

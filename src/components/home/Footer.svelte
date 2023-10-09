@@ -4,7 +4,8 @@
 <footer>
     <div>
         <div>
-            <h3>Greta Grand Quevilly</h3>
+            <h3>Greta Rouen Maritime</h3>
+            <div>Antenne de Grand Quevilly</div>
             <div>17 avenue Franklin Roosevelt</div>
             <div>76120 Grand Quevilly</div>
             <div>02.32.11.01.06</div>

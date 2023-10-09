@@ -18,6 +18,9 @@
 body {
     font-family: 'Oswald', sans-serif;
 }
+body.modalOpen {
+    overflow: hidden;
+}
 
 .primary-card,
 .secondary-card {
