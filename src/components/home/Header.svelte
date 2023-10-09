@@ -1,6 +1,8 @@
 <script>
 	import { page } from '$app/stores';
-	// const toggleBurger = () => (isBurgerOpen = !isBurgerOpen);
+
+	let isBurgerOpen = false;
+	const toggleBurger = () => (isBurgerOpen = !isBurgerOpen);
 </script>
 
 <header>
@@ -9,7 +11,7 @@
 	{:else}
 		<a href="/" class="primary-card home">Accueil</a>
 	{/if}
-	<nav>
+	<nav class="desktop-nav">
 		<ul>
 			<li><a href="programme.pdf" class="primary-card" target="_blank">Programme</a></li>
 			<li><a href="exposants" class="primary-card">Exposants</a></li>
@@ -18,11 +20,19 @@
 	</nav>
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
-	<!-- <div class="burger" on:click={toggleBurger}>
+	<div class={'burger' + (isBurgerOpen ? ' active' : '')} on:click={toggleBurger}>
 		<div class={'line' + (isBurgerOpen ? ' line1-active' : '')} />
 		<div class={'line' + (isBurgerOpen ? ' line2-active' : '')} />
 		<div class={'line' + (isBurgerOpen ? ' line3-active' : '')} />
-	</div> -->
+	</div>
+	<nav class={'mobile-nav' + (isBurgerOpen ? ' active' : '')}>
+		<ul>
+			<li><a href="/">Accueil</a></li>
+			<li><a href="programme.pdf" target="_blank">Programme</a></li>
+			<li><a href="exposants">Exposants</a></li>
+			<li><a href="partenaires">Partenaires</a></li>
+		</ul>
+	</nav>
 </header>
 
 <style lang="scss">
@@ -31,6 +41,8 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		position: relative;
+
 		img {
 			height: 100px;
 			@media screen and (max-width: 768px) {
@@ -44,7 +56,7 @@
 			text-decoration: none;
 		}
 
-		nav {
+		.desktop-nav {
 			@media screen and (max-width: 768px) {
 				display: none;
 			}
@@ -60,43 +72,76 @@
 			}
 		}
 
-		// .burger {
-		// 	width: 30px;
-		// 	height: 20px;
-		// 	display: flex;
-		// 	flex-direction: column;
-		// 	justify-content: space-between;
-		// 	cursor: pointer;
+		.mobile-nav {
+			height: 0;
+			overflow: hidden;
+			position: absolute;
+			top: -1em;
+			left: -1em;
+			width: calc(100% + 2em);
+			background-color: var(--primary-color);
+			box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+			transition: all 0.3s ease;
 
-		// 	@media screen and (min-width: 768px) {
-		// 		display: none;
-		// 	}
+			&.active {
+				height: 176px;
+			}
 
-		// 	.line {
-		// 		width: 30px;
-		// 		height: 4px;
-		// 		background-color: var(--primary-color);
-		// 		transition: all 0.3s ease;
-		// 	}
+			ul {
+				padding: 1em;
+				list-style: none;
+				li a {
+					font-size: 1.5em;
+					color: var(--secondary-color);
+					text-decoration: none;
+				}
+			}
+		}
 
-		// 	.line1-active,
-		// 	.line2-active,
-		// 	.line3-active {
-		// 		background-color: var(--secondary-color);
-		// 	}
+		.burger {
+			width: calc(30px + 1em);
+			height: calc(20px + 1em);
+			padding: 0.5em;
+			background-color: var(--secondary-color);
+			border-radius: 0.5em;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			z-index: 999;
+			cursor: pointer;
 
-		// 	.line1-active {
-		// 		transform: translateY(8px) rotate(45deg);
-		// 	}
+			&.active {
+				background-color: var(--primary-color);
+			}
 
-		// 	.line2-active {
-		// 		opacity: 0;
-		// 		transform: translateX(-100vw);
-		// 	}
+			@media screen and (min-width: 768px) {
+				display: none;
+			}
 
-		// 	.line3-active {
-		// 		transform: translateY(-8px) rotate(-45deg);
-		// 	}
-		// }
+			.line {
+				width: 30px;
+				height: 4px;
+				background-color: var(--primary-color);
+				transition: all 0.3s ease;
+			}
+
+			.line1-active,
+			.line2-active,
+			.line3-active {
+				background-color: var(--secondary-color);
+			}
+
+			.line1-active {
+				transform: translateY(8px) rotate(45deg);
+			}
+
+			.line2-active {
+				opacity: 0;
+			}
+
+			.line3-active {
+				transform: translateY(-8px) rotate(-45deg);
+			}
+		}
 	}
 </style>
