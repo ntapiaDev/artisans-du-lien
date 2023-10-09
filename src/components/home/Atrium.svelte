@@ -77,14 +77,5 @@
 				}
 			}
 		}
-
-		.background {
-			position: absolute;
-			right: 0;
-			bottom: 0;
-			@media screen and (max-width: 1024px) {
-				width: 100px;
-			}
-		}
 	}
 </style>

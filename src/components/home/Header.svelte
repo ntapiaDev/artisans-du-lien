@@ -16,6 +16,13 @@
 			<li><a href="programme.pdf" class="primary-card" target="_blank">Programme</a></li>
 			<li><a href="exposants" class="primary-card">Exposants</a></li>
 			<li><a href="partenaires" class="primary-card">Partenaires</a></li>
+			<li class="register">
+				<span class="primary-card">Inscription</span>
+				<div>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdhgABC-u2llTKw2tGmVNhLKAso-tlce2iHSuAFMt9_V6MG2w/viewform?usp=sf_link" target="_blank" class="primary-card">Individuelle</a>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSdJpLDOBJmzjWS8IVYRQb3QLHK2QVI4mbO16bUOuAhM5Wa9Hw/viewform?usp=sf_link" target="_blank" class="primary-card">Groupe</a>
+				</div>
+			</li>
 		</ul>
 	</nav>
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -31,6 +38,9 @@
 			<li><a href="programme.pdf" target="_blank">Programme</a></li>
 			<li><a href="exposants">Exposants</a></li>
 			<li><a href="partenaires">Partenaires</a></li>
+			<hr>
+			<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhgABC-u2llTKw2tGmVNhLKAso-tlce2iHSuAFMt9_V6MG2w/viewform?usp=sf_link" target="_blank">Inscription individuelle</a></li>
+			<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdJpLDOBJmzjWS8IVYRQb3QLHK2QVI4mbO16bUOuAhM5Wa9Hw/viewform?usp=sf_link" target="_blank">Inscription groupe (obligatoire)</a></li>
 		</ul>
 	</nav>
 </header>
@@ -64,10 +74,31 @@
 				display: flex;
 				gap: 1em;
 				list-style: none;
-				li a {
+				li a,
+				span {
 					padding: 0.25em 1em;
 					font-size: 1.5em;
 					text-decoration: none;
+				}
+
+				.register {
+					position: relative;
+					text-align: center;
+
+					&:hover div {
+						height: 96px;
+					}
+
+					div {
+						width: 100%;
+						height: 0;
+						overflow: hidden;
+						transition: all 0.3s ease;
+						position: absolute;
+						top: 42px;
+						display: flex;
+						flex-direction: column;
+					}
 				}
 			}
 		}
@@ -84,7 +115,7 @@
 			transition: all 0.3s ease;
 
 			&.active {
-				height: 176px;
+				height: 274px;
 			}
 
 			ul {
@@ -94,6 +125,11 @@
 					font-size: 1.5em;
 					color: var(--secondary-color);
 					text-decoration: none;
+				}
+
+				hr {
+					border: 1px dashed var(--secondary-color);
+					margin: 1em 0 0.5em;
 				}
 			}
 		}
