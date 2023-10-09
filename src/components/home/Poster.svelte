@@ -1,9 +1,18 @@
 <script lang="ts">
-	import Animations from "./words/Animations.svelte";
-	import Atelier from "./words/Atelier.svelte";
-	import Projections from "./words/Projections.svelte";
-	import Rencontres from "./words/Rencontres.svelte";
-	import TablesRondes from "./words/TablesRondes.svelte";
+	import Adapter from "./words_v2/Adapter.svelte";
+	import Agir from "./words_v2/Agir.svelte";
+	import Decouvrir from "./words_v2/Decouvrir.svelte";
+	import Echanger from "./words_v2/Echanger.svelte";
+	import Ecouter from "./words_v2/Ecouter.svelte";
+	import Eveiller from "./words_v2/Eveiller.svelte";
+	import Innover from "./words_v2/Innover.svelte";
+	import Observer from "./words_v2/Observer.svelte";
+
+	// import Animations from "./words/Animations.svelte";
+	// import Atelier from "./words/Atelier.svelte";
+	// import Projections from "./words/Projections.svelte";
+	// import Rencontres from "./words/Rencontres.svelte";
+	// import TablesRondes from "./words/TablesRondes.svelte";
 
 	let absoluteValue = 0;
 	let scrollY = 0;
@@ -28,11 +37,19 @@
 		<div class="primary-card">Les artisans du lien</div>
 		<div class="secondary-card">Chez vous au quotidien</div>
 	</div>
-	<Animations {absoluteValue} />
+	<!-- <Animations {absoluteValue} />
 	<Atelier {absoluteValue} />
 	<Projections {absoluteValue} />
 	<Rencontres {absoluteValue} />
-	<TablesRondes {absoluteValue} />
+	<TablesRondes {absoluteValue} /> -->
+	<Echanger {absoluteValue} />
+	<Ecouter {absoluteValue} />
+	<Innover {absoluteValue} />
+	<Adapter {absoluteValue} />
+	<Agir {absoluteValue} />
+	<Observer {absoluteValue} />
+	<Decouvrir {absoluteValue} />
+	<Eveiller {absoluteValue} />
 	<img src="icons/man.png" alt="" style="left: {absoluteValue}px" class="man" />
 	<img src="icons/woman.png" alt="" style="right: {absoluteValue}px" class="woman" />
 	<img src="icons/waves-background.png" alt="" class="waves-bg" />
