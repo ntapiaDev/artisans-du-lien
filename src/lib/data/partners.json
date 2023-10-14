@@ -1,1 +1,65 @@
-[]
+[
+    {
+        "icon": "normandie.png",
+        "name": "Region normandie",
+        "title": "Orientation, formation, emploi",
+        "description": "La Région se mobilise pour permettre à chaque Normand, tout au long de son parcours professionnel, de bien s’orienter et de choisir sa voie de formation. Quel que soit votre statut (demandeur d’emploi, salarié, travailleur indépendant, artisan…), la Région vous accompagne dans votre projet professionnel, en synergie avec l’ensemble des acteurs de l’orientation, de l’emploi, de l’insertion professionnelle et de la formation.",
+        "website": "https://www.normandie.fr"
+    },
+    {
+        "icon": "76.png",
+        "name": "Le CD 76",
+        "title": "Le Conseil Départemental de la Seine-Maritime",
+        "description": " Parmi ses missions, Le département 76 est chargé d'évaluer les besoins des personnes âgées, handicapées ou en situation de dépendance pour déterminer le niveau d'aide nécessaire. Il contribue aux financement de l’Aide à domicile via l’Allocation Personnalisée d'Autonomie (APA) prestation pour les personnes âgées en perte d'autonomie ou de la PCH Prestation de Compensation du Handicap apres notification MDPH. Il peut proposer des aides financières pour permettre aux personnes de rester chez elle le plus longtemps possible (portage de repas, télé assistance, produits d’incontinence, équipements...). Le département peut fournir une aide sociale aux individus et aux familles en difficulté, notamment en cas de précarité économique ou sociale.",
+        "website": "https://www.seinemaritime.fr"
+    },
+    {
+        "icon": "",
+        "name": "CLIC",
+        "title": "Centres Locaux d'Information et de Coordination",
+        "description": "En Seine-Maritime, le Département délègue sa compétence de coordination gérontologique aux CLIC. La totalité du territoire départemental est couvert par 16 CLIC qui exercent des missions en faveur des personnes âgées de 60 ans et plus, de leurs proches aidants et également des professionnels du secteur gérontologique. Ainsi, en soutien des acteurs locaux de premiers recours, ces centres exercent une mission d’accueil, d’information et d’orientation du public âgé de 60 ans et plus mais également de ses proches. L’équipe du CLIC se déplace au domicile de la personne afin de lui proposer une évaluation multidimensionnelle de ses besoins et un plan d’accompagnement dont elle assure le suivi.",
+        "website": ""
+    },
+    {
+        "icon": "pe.svg",
+        "name": "Pole emploi",
+        "title": "",
+        "description": "Pôle emploi est un établissement public à caractère administratif, chargé de l'emploi en France. Créé le 19 décembre 2008, il est issu de la fusion entre l'Agence nationale pour l'emploi et l'Association pour l'emploi dans l'industrie et le commerce. Il permet d'accéder à vos services de recherche d'emploi (diffusion de votre CV, abonnement aux offres publiées, ...) et, si vous êtes inscrit à Pôle emploi, aux informations et services sur vos allocations.",
+        "website": "https://www.pole-emploi.fr"
+    },
+    {
+        "icon": "atrium.png",
+        "name": "L’Atrium",
+        "title": "",
+        "description": "Au cœur de la cité rouennaise, l’Atrium est un espace à destination de tous et notamment des jeunes normands, pour une meilleure appropriation du savoir et plus largement de leur environnement régional en matière d’orientation et de découverte des métiers. Riche de cette histoire, l’Atrium est aujourd’hui l’espace régional de découverte scientifique technique et industriel en Normandie.",
+        "website": "https://www.atriumnormandie.fr"
+    },
+    {
+        "icon": "ADEP.webp",
+        "name": "ADEP",
+        "title": "",
+        "description": "Chantier d'insertion, formation professionnelle, aide à domicile, services à la personne, emploi de proximité, ADVF.",
+        "website": "https://adep.eu"
+    },
+    {
+        "icon": "Media-Formation.png",
+        "name": "Média Formation",
+        "title": "Organisme de formation et de conseil",
+        "description": "Depuis plus de 20 ans notre organisme propose une offre de formation et de conseil au service de l'individu. Nos domaines d'activités composés de 4 grands pôles de formation nous permettent de trouver une solution adaptée à chaque personne. Salarié ou demandeur d'emploi, toute une gamme de solutions est à votre disposition! Notre organisme de formation professionnelle vous propose avec ses actions et prestations, de véritables outils pour vous orienter sur le marché du travail, vous évaluer, vous perfectionner ou vous qualifier.",
+        "website": "https://www.media-formation.fr"
+    },
+    {
+        "icon": "greta.png",
+        "name": "Le GRETA Portes normandes",
+        "title": "Antenne d’ELBEUF",
+        "description": "Votre partenaire formation, que vous soyez chef d’entreprise, salarié, en recherche d’emploi, ou apprenti.  Notre mission : vous conseiller, vous aider à concrétiser vos projets, vous former pour demain, vous permettre d’évoluer professionnellement, vous accompagner pendant et après votre formation.",
+        "website": "https://greta.ac-normandie.fr/greta/greta-portes-normandes"
+    },
+    {
+        "icon": "plie.png",
+        "name": "PLIE METROPOLE ROUEN",
+        "title": "",
+        "description": "Le PLIE a pour but d’accompagner les demandeurs d’emploi de la Métropole dans leur accès à un emploi durable. À qui le PLIE s’adresse-t-il ? Le PLIE s’adresse aux demandeurs d’emploi résidant sur l’une des communes de la Métropole Rouen Normandie et qui adhèrent à la démarche proposée.",
+        "website": "https://www.pliedelametropole.fr"
+    }
+]

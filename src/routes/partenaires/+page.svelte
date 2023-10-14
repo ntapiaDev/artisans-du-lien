@@ -1,10 +1,9 @@
 <script lang="ts">
 	import partners from '$lib/data/partners.json';
 	import type IPartner from '$lib/data/IPartner';
-
-	import Title from '../../components/partners/Title.svelte';
-	import Footer from '../../components/home/Footer.svelte';
 	import Header from '../../components/home/Header.svelte';
+	import Partner from '../../components/partners/Partner.svelte';
+	import Title from '../../components/partners/Title.svelte';
 
 	const sortPartnersByName = (array: IPartner[]) => array.sort((a, b) => a.name.localeCompare(b.name));
 </script>
@@ -15,11 +14,10 @@
 		<Title />
 	</div>
 	<div class="grid">
-		{#each sortPartnersByName(partners) as exponent}
-			<!-- <Exponent {exponent} /> -->
+		{#each sortPartnersByName(partners) as partner}
+			<Partner {partner} />
 		{/each}
 	</div>
-	<Footer />
 </main>
 
 <style lang="scss">

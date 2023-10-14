@@ -3,6 +3,5 @@ export default interface IPartner {
     name: string,
     title: string,
     description: string,
-    contact: string | string[],
     website: string
 }

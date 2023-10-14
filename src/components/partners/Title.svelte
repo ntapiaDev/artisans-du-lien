@@ -21,6 +21,8 @@
 			display: inline-block;
 			text-transform: none;
 			font-size: 3em;
+			background-color: var(--secondary-color);
+			color: var(--primary-color);
 
 			@media screen and (max-width: 768px) {
 				font-size: 1.5em;
@@ -30,6 +32,8 @@
 		.primary-card {
 			margin-left: 3em;
 			font-size: 4em;
+			background-color: var(--primary-color);
+			color: var(--secondary-color);
 
 			@media screen and (max-width: 768px) {
 				font-size: 2em;
