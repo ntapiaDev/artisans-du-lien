@@ -2,6 +2,7 @@
 	import partners from '$lib/data/partners.json';
 	import type IPartner from '$lib/data/IPartner';
 	import Header from '../../components/home/Header.svelte';
+	import Greta from '../../components/partners/Greta.svelte';
 	import Partner from '../../components/partners/Partner.svelte';
 	import Title from '../../components/partners/Title.svelte';
 
@@ -13,6 +14,7 @@
 		<Header />
 		<Title />
 	</div>
+	<Greta />
 	<div class="grid">
 		{#each sortPartnersByName(partners) as partner}
 			<Partner {partner} />

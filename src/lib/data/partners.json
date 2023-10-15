@@ -1,15 +1,15 @@
 [
     {
         "icon": "normandie.png",
-        "name": "Region normandie",
+        "name": "La Region normandie",
         "title": "Orientation, formation, emploi",
         "description": "La Région se mobilise pour permettre à chaque Normand, tout au long de son parcours professionnel, de bien s’orienter et de choisir sa voie de formation. Quel que soit votre statut (demandeur d’emploi, salarié, travailleur indépendant, artisan…), la Région vous accompagne dans votre projet professionnel, en synergie avec l’ensemble des acteurs de l’orientation, de l’emploi, de l’insertion professionnelle et de la formation.",
         "website": "https://www.normandie.fr"
     },
     {
         "icon": "76.png",
-        "name": "Le CD 76",
-        "title": "Le Conseil Départemental de la Seine-Maritime",
+        "name": "CD 76",
+        "title": "Conseil Départemental de la Seine-Maritime",
         "description": " Parmi ses missions, Le département 76 est chargé d'évaluer les besoins des personnes âgées, handicapées ou en situation de dépendance pour déterminer le niveau d'aide nécessaire. Il contribue aux financement de l’Aide à domicile via l’Allocation Personnalisée d'Autonomie (APA) prestation pour les personnes âgées en perte d'autonomie ou de la PCH Prestation de Compensation du Handicap apres notification MDPH. Il peut proposer des aides financières pour permettre aux personnes de rester chez elle le plus longtemps possible (portage de repas, télé assistance, produits d’incontinence, équipements...). Le département peut fournir une aide sociale aux individus et aux familles en difficulté, notamment en cas de précarité économique ou sociale.",
         "website": "https://www.seinemaritime.fr"
     },
@@ -50,7 +50,7 @@
     },
     {
         "icon": "greta.png",
-        "name": "Le GRETA Portes normandes",
+        "name": "GRETA Portes normandes",
         "title": "Antenne d’ELBEUF",
         "description": "Votre partenaire formation, que vous soyez chef d’entreprise, salarié, en recherche d’emploi, ou apprenti.  Notre mission : vous conseiller, vous aider à concrétiser vos projets, vous former pour demain, vous permettre d’évoluer professionnellement, vous accompagner pendant et après votre formation.",
         "website": "https://greta.ac-normandie.fr/greta/greta-portes-normandes"
@@ -61,5 +61,12 @@
         "title": "",
         "description": "Le PLIE a pour but d’accompagner les demandeurs d’emploi de la Métropole dans leur accès à un emploi durable. À qui le PLIE s’adresse-t-il ? Le PLIE s’adresse aux demandeurs d’emploi résidant sur l’une des communes de la Métropole Rouen Normandie et qui adhèrent à la démarche proposée.",
         "website": "https://www.pliedelametropole.fr"
+    },
+    {
+        "icon": "fse.png",
+        "name": "Le FSE",
+        "title": "Fond Social Européen",
+        "description": "Le Fond Social Européen (FSE) participe à la mise en œuvre des politiques publiques nationales pour agir en faveur de l’emploi. Géré au niveau national, il a une portée d’actions et de solutions au cœur des territoires. Découvrez comment se traduit concrètement l’intervention de l’État en région Normandie. L’objectif premier du FSE est de soutenir la création d’emplois de meilleure qualité dans l’UE et d’améliorer les perspectives professionnelles des citoyens (jeunes, demandeurs d’emploi, inactifs, handicapés, salariés étudiants etc.), prioritairement en direction des groupes les moins qualifiées et les plus exposés au chômage et à l’exclusion. En Normandie, si les disparités de niveau de vie entre territoires sont moins marquées que dans d’autres régions, il existe de fortes disparités selon les territoires et la typologie des habitants. Les jeunes, qui connaissent davantage de difficultés d’insertion, les actifs impactés par les mutations économiques et les femmes sont particulièrement exposés au chômage et à la pauvreté.",
+        "website": "https://fse.gouv.fr"
     }
 ]
