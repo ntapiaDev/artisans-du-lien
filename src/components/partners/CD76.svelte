@@ -11,14 +11,17 @@
 			<li>la prestation de compensation du handicap (PCH)</li>
 			<li>la Maison Départementale des Personnes Handicapées, structure d’accueil et d’accompagnement pour les personnes handicapées, leur famille mais aussi pour les soignants, professionnels et services du Département</li>
 		</ul>
+		<a href="https://www.seinemaritime.fr" target="_blank">
+			<img src="icons/website_p.png" alt="site internet" />Site internet
+		</a>
 		<h4>CLIC (Centres Locaux d'Information et de Coordination)</h4>
 		<p>En Seine-Maritime, le Département délègue sa compétence de coordination gérontologique aux CLIC.</p>
 		<p>La totalité du territoire départemental est couvert par 16 CLIC qui exercent des missions en faveur des personnes âgées de 60 ans et plus, de leurs proches aidants et également des professionnels du secteur gérontologique.</p>
 		<p>Ainsi, en soutien des acteurs locaux de premiers recours, ces centres exercent une mission d’accueil, d’information et d’orientation du public âgé de 60 ans et plus mais également de ses proches.</p>
 		<p>L’équipe du CLIC se déplace au domicile de la personne afin de lui proposer une évaluation multidimensionnelle de ses besoins et un plan d’accompagnement dont elle assure le suivi.</p>
-		<!-- <a href="" target="_blank">
+		<a href="https://www.seinemaritime.fr/mon-quotidien/personnes-agees/qui-sadresser.html" target="_blank">
 			<img src="icons/website_p.png" alt="site internet" />Site internet
-		</a> -->
+		</a>
 	</div>
 </div>
 
@@ -82,24 +85,24 @@
 				padding-left: 2em;
 			}
 
-			// a {
-			// 	width: 151px;
-			// 	margin-left: auto;
-			// 	margin-top: 1em;
-			// 	padding: 0.5em 1em;
-			// 	color: #ffffff;
-			// 	background-color: var(--primary-color);
-			// 	border-radius: 2em;
-			// 	display: flex;
-			// 	align-items: center;
-			// 	justify-content: center;
-			// 	gap: 1em;
+			a {
+				width: 151px;
+				margin-left: auto;
+				margin-top: 1em;
+				padding: 0.5em 1em;
+				color: #ffffff;
+				background-color: var(--primary-color);
+				border-radius: 2em;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				gap: 1em;
 
-			// 	img {
-			// 		width: 30px;
-			// 		height: 30px;
-			// 	}
-			// }
+				img {
+					width: 30px;
+					height: 30px;
+				}
+			}
 		}
 	}
 </style>
