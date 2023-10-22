@@ -3,7 +3,7 @@
 		<h3>Pole emploi</h3>
 	</div>
 	<div class="content">
-		<img src="partners/pe.svg" alt="Pole emploi" class="logo"/>
+		<img src="partners/pe.png" alt="Pole emploi" class="logo"/>
 		<p>Pôle emploi est le service public de l’emploi en France. Son rôle est, d’une part, d’indemniser les demandeurs d’emploi et les accompagner vers le retour à l’emploi ; et d’autre part, de guider les entreprises dans leurs recrutements.</p>
 		<h4>Au service des demandeurs d’emplois :</h4>
 		<p>Pôle emploi gère les dossiers d’indemnisations selon les droits des salariés en rupture ou fin de contrat. Il propose sur l’ensemble de ses antennes des services d’orientation aussi bien généralistes que spécialisés, avec des prestations adaptées aux profils et aux besoins de formation de tous les publics, tout au long de la vie. Aux côtés des Conseils régionaux, le Pole Emploi compte ainsi parmi les principaux financeurs de formations pour les demandeurs d’emploi. Un rôle essentiel en matière de prescription et un levier majeur d’accès à l’emploi.</p>
@@ -14,7 +14,7 @@
 		<h4>Au service des entreprises :</h4>
 		<p>Grâce à leur espace dédié sur pole-emploi.fr, les employeurs peuvent gérer directement leurs besoins de recrutement : déposer leurs offres, présenter leur activité et contacter les demandeurs d’emploi répondant aux profils qu’ils recherchent.</p>
 		<p>En complément, Pôle emploi propose des services d’accompagnement sur mesure et d’appui aux employeurs ayant des difficultés à recruter ou à définir leurs besoins. Dans le cadre de ces services particulièrement adaptés, par exemple, aux entreprises de petite taille ou placées sur des métiers de niche, les conseillers de Pôle emploi peuvent procéder à des analyses de poste, fournir un support aux entretiens d’embauche, présélectionner des candidatures, ou bien encore conduire des actions d’adaptation des demandeurs d’emploi aux postes de travail proposés.</p>
-		<a href="https://www.pole-emploi.fr/region/normandie" target="_blank">
+		<a href="https://entreprise.pole-emploi.fr/accueil" target="_blank">
 			<img src="icons/website_p.png" alt="site internet" />Site internet
 		</a>
 	</div>

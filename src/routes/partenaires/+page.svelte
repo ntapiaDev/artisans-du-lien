@@ -11,6 +11,8 @@
 	import Normandie from '../../components/partners/Normandie.svelte';
 	import Cd76 from '../../components/partners/CD76.svelte';
 	import Fse from '../../components/partners/Fse.svelte';
+	import Adep from '../../components/partners/ADEP.svelte';
+	import Media from '../../components/partners/Media.svelte';
 
 	const sortPartnersByName = (array: IPartner[]) => array.sort((a, b) => a.name.localeCompare(b.name));
 </script>
@@ -28,6 +30,8 @@
 		<Fse />
 		<Plie />
 		<PoleEmploi />
+		<Adep />
+		<Media />
 		<!-- {#each sortPartnersByName(partners) as partner}
 			<Partner {partner} />
 		{/each} -->

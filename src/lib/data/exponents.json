@@ -22,9 +22,12 @@
         "name": "Petits Frères des Pauvres",
         "title": "",
         "description": "Depuis 1946, les Petits Frères des Pauvres luttent contre l'isolement et la solitude des personnes âgées, prioritairement les plus démunies. Par nos actions, nous recréons des liens leur permettant de reprendre goût à la vie et faire partie du monde qui les entoure. Vivre tout simplement.",
-        "contact": "camille.romano@petitsfreresdespauvres.fr",
+        "contact": [
+            "rouen@petitsfreresdespauvres.fr",
+            "saintetiennedurouvray@petitsfreresdespauvres.fr"
+        ],
         "website": "https://www.petitsfreresdespauvres.fr/nos-implantations/les-petits-freres-des-pauvres-de-rouen",
-        "video": ""
+        "video": "xDxhmPaeVto"
     },
     {
         "icon": "telegrafik.png",
@@ -33,7 +36,7 @@
         "description": "Chez Telegrafik, notre ambition est de mettre les technologies au service du Care, au service de l’ensemble des moyens humains mis en œuvre au quotidien auprès des personnes fragiles. L’équipe Telegrafik conçoit et déploie des services connectés intergénérationnels, utiles et sécurisants pour les personnes fragiles, mais aussi leurs aidants familiaux ou professionnels.",
         "contact": "",
         "website": "https://www.telegrafik.fr",
-        "video": ""
+        "video": "SIXxnp5caDo"
     },
     {
         "icon": "ezio.png",
@@ -87,7 +90,7 @@
         "description": "Chez Familink, nous croyons que les photos facilitent grandement le dialogue entre les générations. C’est pourquoi nous avons développé des solutions pour simplifier le partage de vos images entre membres d’une même famille. Familink c’est au choix : Soit un cadre photo connecté qui affiche les photos instantanément, soit une revue papier qui les affiche une fois par mois dans votre boîte aux lettres. Mais une seule appli.",
         "contact": "emilie@asweshare.com",
         "website": "https://www.familinkframe.com/fr",
-        "video": ""
+        "video": "0VEoy74pirs"
     },
     {
         "icon": "petits-fils.svg",
@@ -114,7 +117,7 @@
         "description": "Aide à domicile et soins à domicile sur Rouen et son agglomération pour les personnes âgées et les personnes en situation de handicap. L'Equipe spécialisée Alzheimer : Optimiser les capacités résiduelles, Maintenir, voire améliorer, l'état de santé, le bien-être et la qualité de vie du patient et de son entourage, Proposer une approche non médicamenteuse centrée sur les difficultés du quotidien, Apprendre à gérer les troubles du comportement, Accompagner, proposer des relais et soutenir les proches",
         "contact": "esa@lajosa.fr",
         "website": "https://lajosa.fr",
-        "video": ""
+        "video": "sSyBCFwwrdQ"
     },
     {
         "icon": "logo.domidom.png",
@@ -141,7 +144,7 @@
         "description": "Harmonie Médical Service propose à la vente ou à la location, une large gamme d'équipements et de services auprès notamment des particuliers en repondant à leurs attentes pour plus de confort, d'autonomie pour améliorer la vie au quotidien gràce à des aides techniques, des adaptations, des aménagements mais également aux collectivités (EHPAD) en apportant la réponse aux besoins des maisons de retraite, des EHPAD, des cliniques et hôpitaux, services de soins à domicile en proposant une gamme complète de services et matériel. Nos assistantes COMMERCIALES, nos commerciaux dédiés au HANDICAP et à la COLLECTIVITE, nos ORTHOPEDISTES et nos techniciens SAV sauront être à votre écoute afin de mieux vous conseiller.",
         "contact": "marine.deheinzelin@harmonie-hms.fr",
         "website": "https://www.harmonie-medical-service.fr/nos-magasins/rouen",
-        "video": ""
+        "video": "_-hQi2poHeQ"
     },
     {
         "icon": "Autonhome-logo-couleur.svg",
@@ -168,7 +171,7 @@
         "description": "Curieux et passionné, féru de sociologie, les grandes transitions démographiques, énergétiques, environnementales et numériques ont éclairé d'un jour nouveau mes expériences marketing et opérationnelles, toujours au plus proches des usagers finaux, pour essayer de décrypter les clefs de la réussite et la compréhension des enjeux dans la sphère publique ou privée, face à ces défis déjà bien présents. Engagé dans les grandes transitions énergétique & bas-carbone, démographique et les mobilités, Saint-Gobain œuvre au quotidien pour incarner sa raison d’être : MAKING THE WORLD A BETTER HOME !",
         "contact": "jean-philippe.arnoux@saint-gobain.com",
         "website": "",
-        "video": ""
+        "video": "poai4IfisjQ"
     },
     {
         "icon": "lesmadelaines.jpg",
@@ -177,7 +180,7 @@
         "description": "Une association qui promeut le bien-être, la solidarité et le lien social à travers la confection et don d’outils thérapeutiques en laine, tels que les manchons sensoriels destinés aux personnes souffrant de maladies neurodégénératives. Cette association mène aussi divers projets autour du fil, avec l’objectif de tisser des liens entre personnes de toutes générations.",
         "contact": "lesmadelaines78@gmail.com",
         "website": "https://www.lesmadelaines.com",
-        "video": ""
+        "video": "T1olfQWH3zM"
     },
     {
         "icon": "aveclogo.svg",
@@ -186,7 +189,7 @@
         "description": "Pour être au plus près de vous, les intervenants à domicile Avec sont organisés en équipes sectorisées sur chacune de ces communes. Elles sont ainsi présentes et disponibles pour accompagner les plus fragiles dans leurs besoins et gestes du quotidien lorsque l’âge, le handicap ou la maladie ne leur permettent plus de les réaliser seul : entretien du domicile, aide au lever/coucher, à la toilette, repas, courses. Elles sont aussi là pour leur assurer présence et compagnie et leur prêter assistance pour, par exemple,  les accompagner dans leurs sorties et les véhiculer.",
         "contact": "sandrine.rousselin@avec.fr",
         "website": "https://avec.fr/aide-a-domicile/rouen-76000",
-        "video": ""
+        "video": "YNgutju9t7E"
     },
     {
         "icon": "lesmenusservices.webp",
@@ -198,7 +201,7 @@
             "rouen-ouest@les-menus-services.com"
         ],
         "website": "https://www.les-menus-services.com",
-        "video": ""
+        "video": "ZRk7eGEuw1I"
     },
     {
         "icon": "mieuxvoir.svg",
@@ -216,7 +219,7 @@
         "description": "Proposer à nos ainés de se réunir régulièrement dans des tiers-lieux afin que ces derniers cuisinent et mangent ensemble, en suivant les conseils nutritionnels préconisés par Repas Part’âges. Ces ateliers, théoriques et pratiques, sont destinés essentiellement aux veuves et veufs de plus de 70 ans. Nous visons la transmission et/ou le regain d’appétit à table et d’appétit pour la vie. Ces ateliers Repas Part’âges sont l’occasion de favoriser la stimulation des fonctions cognitives, langagières et sociales.",
         "contact": "admin@repas-partages.fr",
         "website": "https://repas-partages.fr",
-        "video": ""
+        "video": "_yP6wC4qdq4"
     },
     {
         "icon": "agoralude.png",
@@ -225,7 +228,7 @@
         "description": "Pour stimuler les fonctions cognitives, travailler la mémoire, maintenir les compétences et favoriser les moments de plaisir et d’échanges, découvrez nos outils adaptés : jeux de mémoire pour personnes agées, quizz, exercices cognitifs, jeux sensoriels, grands puzzles, loisirs créatifs, jeux de société grande taille, loto, matériel de gym douce, outils de motricité fine et parcours d’équilibre.",
         "contact": "contact@agoralude.com",
         "website": "https://www.agoralude.com",
-        "video": ""
+        "video": "f0xl15Vx1vo"
     },
     {
         "icon": "live-out.png",
@@ -234,7 +237,7 @@
         "description": "Les outils de Live-Out sont destinés au secteur du médico-social en Etablissement d'hébergement pour personnes âgées dépendantes, ou à domicile. Ils sont développés sur la base de recherches constantes sous le cadre de protocoles universitaires. Ils sont utilisés en environnements hospitaliers, au service du handicap, pour des soins à domicile, en résidences sénior.",
         "contact": "contact@live-out.com",
         "website": "https://www.live-out.com",
-        "video": ""
+        "video": "IF_YKunBI-U"
     },
     {
         "icon": "vitalliance.svg",
@@ -261,7 +264,7 @@
         "description": "L'association Lilavie diffuse 4 journaux faciles à comprendre, supports à l'animation d'ateliers revue de presse, expression, écriture... Utilisés par les animateurs en EHPAD, en résidence autonomie, à domicile,  les intervenants du champ médicosocial, les éducateurs, formateurs, psychologues... ils s'adressent à des usagers éloignés de la lecture et permettent d'aider à comprendre l'actualité. Les sujets sont aussi choisis pour favoriser l'expression, le partage d'expérience, les participants apprennent ainsi à mieux se connaître et créent des liens entre eux. ViteLu est un journal numérique de 2 pages, diffusé 2 fois par semaine. Essai gratuit sur www.lilavie.fr.",
         "contact": "",
         "website": "https://www.lilavie.fr",
-        "video": ""
+        "video": "tA6dLHlWMD8"
     },
     {
         "icon": "uniscite.png",
@@ -277,9 +280,9 @@
         "name": "ANIM’ÂGE",
         "title": "",
         "description": "ANIM’ÂGE propose « d’animer » la vie des personnes âgées grâce à ses ateliers de simulation cognitive vivants et adaptés. Il s’agit de quizz thématiques interactifs simulant la réminiscence, d’ateliers poétiques et musicaux autour de personnalités, de jeux de rébus stimulant la sémantique, de « Voyages dans un fauteuil » pour un moment d’évasion. ANIM’ÂGE propose également des interventions en structures d’hébergement, ou à leurs domiciles, pour des moments de vie partagés.",
-        "contact": "animezvous13@gmail.com",
-        "website": "https://animage.online",
-        "video": ""
+        "contact": "bienvenue.animage@gmail.com",
+        "website": "https://www.animage.online",
+        "video": "n8ITWEzjd68"
     },
     {
         "icon": "essentielmedical.jpg",
@@ -325,5 +328,59 @@
         "contact": "",
         "website": "https://letempsdejouer.com",
         "video": "c67Ixqi0zyU"
+    },
+    {
+        "icon": "CAFOP.jpg",
+        "name": "CAFOP",
+        "title": "",
+        "description": "Le CAFOP de Normandie, rattaché à l'Éducation Nationale au sein du Pôle de l'IFPRA, est un organisme de formation dont l'objectif principal est d'accompagner la professionnalisation et la valorisation des compétences des acteurs de la formation professionnelle continue et en apprentissage, ainsi que la conception et la réalisation de projets de formation liés à l'ingénierie et l'innovation en formation, à l'ingénierie pédagogique et à l'intervention en formation, au management et au pilotage de projets de formation, et à la fonction tutorale. Le CAFOP de Normandie se structure autour de trois pôles d'activités et d'expertise qui visent la professionnalisation des acteurs de la formation professionnelle, l'accompagnement des organisations dans l'évolution des emplois et des compétences, la mobilité professionnelle, ainsi que la recherche et développement, l'innovation et l'expérimentation de nouveaux domaines d'activité en réponse aux besoins économiques et sociaux de la région Normandie. Sa mission essentielle consiste à contribuer à l'amélioration qualitative de la formation des adultes et au développement des compétences de ses acteurs.",
+        "contact": "",
+        "website": "",
+        "video": ""
+    },
+    {
+        "icon": "Sofiap.png",
+        "name": "SOFIAP",
+        "title": "Société financière pour l’accession à la propriété",
+        "description": "Créée à l’origine pour permettre l’accession à la propriété du personnel de la SNCF, cette société, aujourd’hui filiale également de la Banque postale, s’est spécialisée en prêt immobilier subventionné et déploie ses services auprès des entreprises publiques et privées. Ce prêt subventionné à destination de leurs salariés facilite ainsi l’accès à la propriété de leur résidence principale. L’employeur prend en charge une partie des intérêts du prêt immobilier de ses salariés, offrant ainsi un nouvel avantage salarial, permettant aux entreprises de marquer son engagement social et de répondre aux enjeux RSE, notamment en favorisant l’équilibre entre projet de vie et projet professionnel de ses salariés et en mettant en place une action forte en matière de conditions de travail, et de motivation de ses collaborateurs.",
+        "contact": "",
+        "website": "https://sofiap.fr/fr",
+        "video": ""
+    },
+    {
+        "icon": "LAURENT_PERMASSE.png",
+        "name": "Laurent Permasse",
+        "title": "Président du directoire de la SOFIAP",
+        "description": "Créateur du ticket social devenu le CESU préfinancé (chèque emploi service universel), Laurent Permasse a consacré l’essentiel de sa carrière à l’innovation sociale et au développement d’une finance engagée. La sortie de « Manifeste pour la liberté de vieillir chez soi » rédigé sous sa direction et illustré par Xavier Gorce, en donnant la parole aux principaux intéressés et à tous les acteurs qui interviennent dans ce domaine, nous invite à prendre conscience et à agir, collectivement et individuellement. Ce livre écarte tous les préjugés (coûteux, pas assez sécuritaire...) et dresse les solutions existantes : santé, aide à la personne, aménagement de l’habitat, financement. Ce sujet de société du bien vieillir concerne tous les Français et toutes les organisations. Ainsi il a pour objectif d’ouvrir le débat au sein des entreprises qui, au risque de peiner à assumer l’impact de cette problématique auprès de leurs salariés aidants, doivent devenir des actrices du changement, en initiant et inscrivant une action engagée dans le cadre de la responsabilité sociale des entreprises (RSE).",
+        "contact": "",
+        "website": "https://sofiap.fr/fr",
+        "video": ""
+    },
+    {
+        "icon": "onela.png",
+        "name": "ONELA",
+        "title": "",
+        "description": "ONELA est spécialiste du service à la personne : prestations de ménage, aide aux personnes âgées, en situation de handicap ou en convalescence. Grâce à nos professionnels formés et expérimentés, nous faisons vivre notre ambition « être bien chez soi ». Nos équipes peuvent être présentes 7j/7 (de jour comme de nuit) pour vous accompagner à domicile selon vos besoins, de manière ponctuelle ou régulière.",
+        "contact": "vletellier@onela.com",
+        "website": "https://www.onela.com/agence/agence-de-rouen",
+        "video": ""
+    },
+    {
+        "icon": "pdreyer.jpg",
+        "name": "Pascal DREYER",
+        "title": "",
+        "description": "Après une expérience professionnelle auprès de  Handicap International notamment comme directeur adjoint, Pascal Dreyer coordonne depuis 2005 Leroy Merlin Source, pôle de réflexion et de recherches sur les savoirs de l’habitat de Leroy Merlin France. Il anime notamment les groupe de travail Habitat et autonomie et Usages et façons d’habiter et participe aux travaux du groupe Habitat, environnement et santé.  Dans ce cadre, il a diffusé plusieurs travaux de recherche et documentaires dont : \"J’y suis, j’y reste !\" 2012-2017 : recherche psychosociale sur les motivations des personnes âgées à rester chez elles - conduite par Marie Delsalle. Puis \"Chez soi, ses choix \" 2013-2017 : recherche sur les représentations du chez-soi des habitants des professionnels, avec Bernard Ennuyer. Et enfin \" Habiter la mobilité \" 2018-2019 en collaboration avec Soliha Nouvelle Aquitaine. Il y développe une approche du « chez soi », traduisant ainsi le « chez soi » à la fois comme espace physique et délimité (habitat, logement, pièce, agencement, aménagement…), comme espace juridique (domicile), mais également le lieu dans lequel ou à partir duquel se tisse le rapport au monde et le rapport à soi, au travers d’une gradation de dimensions, de la plus sociale à la plus intime.",
+        "contact": "",
+        "website": "https://www.leroymerlinsource.fr",
+        "video": ""
+    },
+    {
+        "icon": "inseraction.jpg",
+        "name": "Inseraction",
+        "title": "Aider les personnes et les familles à réaliser leur insertion sociale et professionnelle",
+        "description": "Accompagnement social - Aide et écoute psychologique - Soutien à la parentalité - Accompagnement à l'emploi - Action collective de développement social.",
+        "contact": "accueil.inseraction@orange.fr",
+        "website": "https://www.facebook.com/associationinseraction",
+        "video": ""
     }
 ]

@@ -151,6 +151,7 @@
 				gap: 1em;
 
 				@media screen and (max-width: 768px) {
+					display: block;
 					width: 100%;
 				}
 
@@ -178,6 +179,10 @@
 					align-items: center;
 					justify-content: center;
 					gap: 1em;
+
+					@media screen and (max-width: 768px) {
+						word-break: break-all;
+					}
 
 					img.e {
 						width: 45px;
@@ -210,7 +215,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			z-index: 1000;
+			z-index: 10000;
 
 			iframe {
 				width: 1120px;
