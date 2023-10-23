@@ -1,5 +1,8 @@
 <script lang="ts">
 	import { onDestroy } from 'svelte';
+	import Digit from './Digit.svelte';
+
+	let update = 0;
 
 	let targetDate = new Date('2023-11-13T08:30:00').getTime();
 	let timeRemaining = targetDate - Date.now();
@@ -14,13 +17,14 @@
 		hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 		minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
 		seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+		update++;
 	};
 
 	const toStringWithTwoDigits = (value: number) => value.toString().padStart(2, '0');
-	const getFirstDigit = (value: number) => toStringWithTwoDigits(value)[0];
-	const getSecondDigit = (value: number) => toStringWithTwoDigits(value)[1];
+	const getFirstDigit = (value: number) => parseInt(toStringWithTwoDigits(value)[0]);
+	const getSecondDigit = (value: number) => parseInt(toStringWithTwoDigits(value)[1]);
 
-	const interval = setInterval(updateCountdown, 1000);
+	const interval = setInterval(updateCountdown, 500);
 
 	onDestroy(() => {
 		clearInterval(interval);
@@ -28,40 +32,41 @@
 </script>
 
 <div class="countdown">
+	<img class="sticky" src="icons/sticky.png" alt="">
 	<div class="time">
-		<img src="icons/time.png" alt="" />
+		<img src="icons/time.gif" alt="" />
 		<div>Rejoignez nous</div>
 	</div>
 	<div class="digits">
 		<div>
-			<div>{getFirstDigit(days)}</div>
-			<div>{getSecondDigit(days)}</div>
+			<Digit digit={getFirstDigit(days)} {update} />
+			<Digit digit={getSecondDigit(days)} {update} />
 		</div>
-		<div>Jours</div>
+		<span>Jours</span>
 	</div>
 	<div class="colon">:</div>
 	<div class="digits">
 		<div>
-			<div>{getFirstDigit(hours)}</div>
-			<div>{getSecondDigit(hours)}</div>
+			<Digit digit={getFirstDigit(hours)} {update} />
+			<Digit digit={getSecondDigit(hours)} {update} />
 		</div>
-		<div>Heures</div>
+		<span>Heures</span>
 	</div>
 	<div class="colon">:</div>
 	<div class="digits">
 		<div>
-			<div>{getFirstDigit(minutes)}</div>
-			<div>{getSecondDigit(minutes)}</div>
+			<Digit digit={getFirstDigit(minutes)} {update} />
+			<Digit digit={getSecondDigit(minutes)} {update} />
 		</div>
-		<div>Minutes</div>
+		<span>Minutes</span>
 	</div>
 	<div class="colon">:</div>
 	<div class="digits">
 		<div>
-			<div>{getFirstDigit(seconds)}</div>
-			<div>{getSecondDigit(seconds)}</div>
+			<Digit digit={getFirstDigit(seconds)} {update} />
+			<Digit digit={getSecondDigit(seconds)} {update} />
 		</div>
-		<div>Secondes</div>
+		<span>Secondes</span>
 	</div>
 </div>
 
@@ -74,25 +79,47 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		gap: 1em;
+		gap: 0.5em;
+		position: relative;
 
 		@media screen and (max-width: 768px) {
 			padding: 0.5em;
 			font-size: 0.9em;
-			gap: 0.5em;
+		}
+
+		.sticky {
+			width: 150px;
+			height: 40px;
+			position: absolute;
+			top: -20px;
+
+			@media screen and (max-width: 768px) {
+				display: none;
+			}
 		}
 
 		.time {
 			width: 60px;
-			margin-right: 0.5em;
+			margin-right: 1em;
+			position: relative;
+			top: 0.125em;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			gap: 0.5em;
 
+			@media screen and (max-width: 768px) {
+				margin-right: 0.5em;
+			}
+
 			img {
 				width: 30px;
 				height: 30px;
+				transform: scale(1.5);
+
+				@media screen and (max-width: 768px) {
+					transform: scale(1.2);
+				}
 			}
 
 			div {
@@ -104,30 +131,36 @@
 		}
 
 		.digits {
+			position: relative;
+			top: 8px;
+
+			@media screen and (max-width: 768px) {
+				top: 0px;
+			}
+
 			div {
 				display: flex;
 				justify-content: center;
-				gap: 0.25em;
+				gap: 0 0.25em;
+				height: 40px;
+				overflow: hidden;
+			}
 
-				div {
-					width: 20px;
-					height: 40px;
-					font-weight: bold;
-					font-size: 1.25em;
-					background-color: var(--primary-color);
-					color: var(--secondary-color);
-					display: flex;
-					align-items: center;
-					justify-content: center;
-				}
+			span {
+				display: flex;
+				justify-content: center;
 			}
 		}
 
 		.colon {
 			position: relative;
-			top: -14px;
+			top: -6px;
 			color: var(--primary-color);
 			font-weight: bold;
+
+			@media screen and (max-width: 768px) {
+				top: -14px;
+			}
 		}
 	}
 </style>
