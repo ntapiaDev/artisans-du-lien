@@ -66,9 +66,10 @@
 				}
 
 				img {
-					height: 100px;
+					width: 120px;
 
 					@media screen and (max-width: 768px) {
+						width: auto;
 						height: 50px;
 					}
 				}

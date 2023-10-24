@@ -382,5 +382,23 @@
         "contact": "accueil.inseraction@orange.fr",
         "website": "https://www.facebook.com/associationinseraction",
         "video": ""
+    },
+    {
+        "icon": "aimes.png",
+        "name": "Nos aimés",
+        "title": "Un auxiliaire de vie unique",
+        "description": "Chez « nos aimés », nous avons la conviction qu’il n’y a pas d’intervention bien faite sans auxiliaire de vie valorisé ! C’est pourquoi, nous sélectionnons des hommes et des femmes professionnels, diplômés avec des références vérifiées pour un service sur-mesure et adapté à vos besoins.",
+        "contact": "alicia.leflon@nosaimes.fr",
+        "website": "https://www.nosaimes.fr",
+        "video": "oWRrgntoSdY"
+    },
+    {
+        "icon": "utilemploi.svg",
+        "name": "UTIL’Emploi",
+        "title": "",
+        "description": "Notre métier : mettre à disposition du personnel et faciliter l'accès à l'emploi sur l’agglomération rouennaise. Structure de l’Economie Sociale et Solidaire, UTIL’Emploi est une Association Intermédiaire agréée par l’Etat depuis 1990.",
+        "contact": "",
+        "website": "https://www.utilemploi.fr",
+        "video": ""
     }
 ]

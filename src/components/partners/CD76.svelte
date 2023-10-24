@@ -11,7 +11,7 @@
 			<li>la prestation de compensation du handicap (PCH)</li>
 			<li>la Maison Départementale des Personnes Handicapées, structure d’accueil et d’accompagnement pour les personnes handicapées, leur famille mais aussi pour les soignants, professionnels et services du Département</li>
 		</ul>
-		<a href="https://www.seinemaritime.fr" target="_blank">
+		<a class="website" href="https://www.seinemaritime.fr" target="_blank">
 			<img src="icons/website_p.png" alt="site internet" />Site internet
 		</a>
 		<h4>CLIC (Centres Locaux d'Information et de Coordination)</h4>
@@ -19,9 +19,13 @@
 		<p>La totalité du territoire départemental est couvert par 16 CLIC qui exercent des missions en faveur des personnes âgées de 60 ans et plus, de leurs proches aidants et également des professionnels du secteur gérontologique.</p>
 		<p>Ainsi, en soutien des acteurs locaux de premiers recours, ces centres exercent une mission d’accueil, d’information et d’orientation du public âgé de 60 ans et plus mais également de ses proches.</p>
 		<p>L’équipe du CLIC se déplace au domicile de la personne afin de lui proposer une évaluation multidimensionnelle de ses besoins et un plan d’accompagnement dont elle assure le suivi.</p>
-		<a href="https://www.seinemaritime.fr/mon-quotidien/personnes-agees/qui-sadresser.html" target="_blank">
+		<a class="website" href="https://www.seinemaritime.fr/mon-quotidien/personnes-agees/qui-sadresser.html" target="_blank">
 			<img src="icons/website_p.png" alt="site internet" />Site internet
 		</a>
+		<h4>UTAS (Unités Territoriales d’Action Sociale)</h4>
+		<p>Lieux d’accueil, d’information, d’orientation et d’accompagnement, les UTAS rassemblent plusieurs métiers en lien avec les prérogatives du Département dans le cadre de l’action sociale : aide à l’enfance, insertion professionnelle, soutien aux personnes âgées ou fragilisées.</p>
+		<p>UTAS de Rouen : <a href="mailto:isabelle.guettier@seinemaritime.fr">isabelle.guettier@seinemaritime.fr</a></p>
+		<p>UTAS des Boucles de Seine : <a href="mailto:leonore.ollivier@seinemaritime.fr">leonore.ollivier@seinemaritime.fr</a></p>
 	</div>
 </div>
 
@@ -86,21 +90,29 @@
 			}
 
 			a {
-				width: 151px;
-				margin-left: auto;
-				margin-top: 1em;
-				padding: 0.5em 1em;
-				color: #ffffff;
-				background-color: var(--primary-color);
-				border-radius: 2em;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				gap: 1em;
+				color: var(--secondary-color);
 
-				img {
-					width: 30px;
-					height: 30px;
+				&.website {
+					width: 151px;
+					margin-left: auto;
+					margin-top: 1em;
+					padding: 0.5em 1em;
+					color: #ffffff;
+					background-color: var(--primary-color);
+					border-radius: 2em;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					gap: 1em;
+
+					@media screen and (max-width: 768px) {
+						width: 100%;
+					}
+
+					img {
+						width: 30px;
+						height: 30px;
+					}
 				}
 			}
 		}

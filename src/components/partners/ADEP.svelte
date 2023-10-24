@@ -72,6 +72,10 @@
 				justify-content: center;
 				gap: 1em;
 
+				@media screen and (max-width: 768px) {
+					width: 100%;
+				}
+
 				img {
 					width: 30px;
 					height: 30px;

@@ -17,6 +17,7 @@
 			<img src="icons/website_p.png" alt="site internet" />Site internet
 		</a>
 	</div>
+	<img class="atrium" src="photos/atrium.webp" alt="L'atrium">
 </div>
 
 <style lang="scss">
@@ -88,11 +89,21 @@
 				justify-content: center;
 				gap: 1em;
 
+				@media screen and (max-width: 768px) {
+					width: 100%;
+				}
+
 				img {
 					width: 30px;
 					height: 30px;
 				}
 			}
+		}
+
+		.atrium {
+			width: calc(100% - 2em);
+			margin: 0 1em 1em;
+			border-radius: 1em;
 		}
 	}
 </style>
