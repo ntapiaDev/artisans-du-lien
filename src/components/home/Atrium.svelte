@@ -13,7 +13,7 @@
 			<div class="links">
 				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdhgABC-u2llTKw2tGmVNhLKAso-tlce2iHSuAFMt9_V6MG2w/viewform?usp=sf_link" target="_blank" class="primary-card">Inscription individuelle</a>
 				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdJpLDOBJmzjWS8IVYRQb3QLHK2QVI4mbO16bUOuAhM5Wa9Hw/viewform?usp=sf_link" target="_blank" class="primary-card">Inscription pour les groupes obligatoires</a>
-				<p>Déjà <b>197</b> inscrits !</p>
+				<p>Déjà plus de <b>250</b> inscrits !</p>
 			</div>
 		</div>
 	</div>

@@ -14,7 +14,7 @@
 		<a class="website" href="https://www.seinemaritime.fr" target="_blank">
 			<img src="icons/website_p.png" alt="site internet" />Site internet
 		</a>
-		<h4>CLIC (Centres Locaux d'Information et de Coordination)</h4>
+		<h4>CLIC (Centres Locaux d'Information et de Coordination) :</h4>
 		<p>En Seine-Maritime, le Département délègue sa compétence de coordination gérontologique aux CLIC.</p>
 		<p>La totalité du territoire départemental est couvert par 16 CLIC qui exercent des missions en faveur des personnes âgées de 60 ans et plus, de leurs proches aidants et également des professionnels du secteur gérontologique.</p>
 		<p>Ainsi, en soutien des acteurs locaux de premiers recours, ces centres exercent une mission d’accueil, d’information et d’orientation du public âgé de 60 ans et plus mais également de ses proches.</p>
@@ -22,10 +22,17 @@
 		<a class="website" href="https://www.seinemaritime.fr/mon-quotidien/personnes-agees/qui-sadresser.html" target="_blank">
 			<img src="icons/website_p.png" alt="site internet" />Site internet
 		</a>
-		<h4>UTAS (Unités Territoriales d’Action Sociale)</h4>
+		<h4>UTAS (Unités Territoriales d’Action Sociale) :</h4>
 		<p>Lieux d’accueil, d’information, d’orientation et d’accompagnement, les UTAS rassemblent plusieurs métiers en lien avec les prérogatives du Département dans le cadre de l’action sociale : aide à l’enfance, insertion professionnelle, soutien aux personnes âgées ou fragilisées.</p>
 		<p>UTAS de Rouen : <a href="mailto:isabelle.guettier@seinemaritime.fr">isabelle.guettier@seinemaritime.fr</a></p>
 		<p>UTAS des Boucles de Seine : <a href="mailto:leonore.ollivier@seinemaritime.fr">leonore.ollivier@seinemaritime.fr</a></p>
+		<h4>L’accueil familial :</h4>
+		<p>L’accueil familial est une solution d’hébergement pour les personnes âgées ou handicapées qui ne peuvent ou ne veulent plus vivre chez elles, momentanément ou définitivement. L'accueil familial constitue une alternative à l’hébergement en établissement.</p>
+		<p>Préalablement à l’accueil, un contrat d’accueil devra être signé entre la personne accueillie (ou son représentant légal) et l’accueillant familial dans l’objectif de préciser les droits et les obligations de chacune des parties.</p>
+		<p>Contact : <a href="AccueilFamilialAdultes@seinemaritime.fr">AccueilFamilialAdultes@seinemaritime.fr</a></p>
+		<a class="website" href="https://www.seinemaritime.fr/mon-quotidien/personnes-agees/hebergement/choisir-un-hebergement.html" target="_blank">
+			<img src="icons/website_p.png" alt="site internet" />Site internet
+		</a>
 	</div>
 </div>
 

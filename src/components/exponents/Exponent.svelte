@@ -28,7 +28,7 @@
 		</span>
 	</div>
 	<div class="content">
-		<img src={'exponents/' + exponent.icon} alt={exponent.name} />
+		<img src={'exponents/' + exponent.icon} alt={exponent.name} loading="lazy" />
 		<div>{exponent.description}</div>
 	</div>
 	<div class="contact">
@@ -170,6 +170,10 @@
 					width: 100%;
 				}
 
+				.email {
+					word-break: break-all;
+				}
+
 				.email,
 				.website {
 					padding: 0.5em 1em;
@@ -179,10 +183,6 @@
 					align-items: center;
 					justify-content: center;
 					gap: 1em;
-
-					@media screen and (max-width: 768px) {
-						word-break: break-all;
-					}
 
 					img.e {
 						width: 45px;

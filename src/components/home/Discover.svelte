@@ -8,7 +8,7 @@
     <div class="card">
         <div class="image image-2"></div>
         <h3 class="primary-card round">Les exposants</h3>
-        <p>Plus d’une trentaine d’acteurs ont répondu présents pour vous faire découvrir leurs services et produits.</p>
+        <p>Plus d’une cinquantaine d’acteurs ont répondu présents pour vous faire découvrir leurs services et produits.</p>
         <a href="exposants" class="primary-card round">Découvrir <img src="icons/orange-arrow.png" alt=""></a>
     </div>
     <div class="card">

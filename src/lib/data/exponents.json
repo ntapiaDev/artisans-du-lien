@@ -192,7 +192,7 @@
         "video": "YNgutju9t7E"
     },
     {
-        "icon": "lesmenusservices.webp",
+        "icon": "lms.jpg",
         "name": "LES MENUS SERVICES",
         "title": "La recette d'une bonne journée",
         "description": "Des services à domicile de qualité accompagnés de propositions de repas savoureuses, variées et équilibrées directement livrées chez vous... Un chef dans chacun de nos plats. Chaque semaine, profitez d’un large choix de menus de saison et optez pour la formule adaptée à vos besoins. Mais aussi Préservez et enrichir le lien social ,un interlocuteur privilégié pour un moment d’échange chaleureux et convivial à chaque livraison permet de préserver le lien social indispensable au bien-être de nos aînés tout en assurant une veille régulière.",
@@ -399,6 +399,78 @@
         "description": "Notre métier : mettre à disposition du personnel et faciliter l'accès à l'emploi sur l’agglomération rouennaise. Structure de l’Economie Sociale et Solidaire, UTIL’Emploi est une Association Intermédiaire agréée par l’Etat depuis 1990.",
         "contact": "",
         "website": "https://www.utilemploi.fr",
+        "video": ""
+    },
+    {
+        "icon": "leffet_du_soin.png",
+        "name": "L'effet du soin",
+        "title": "Aides soignantes diplômées d'Etat",
+        "description": "Aides soignantes diplômées avec 15 ans d'expériences, nous intervenons aujourd'hui à domicile sur les secteurs de Petit-Couronne, Grand-Couronne, Petit-Quevilly, Grand-Quevilly, Saint-Etienne-du-Rouvray et Sotteville-les-Rouen. Nous sommes à votre disposition 7j/7, même les jours fériés. Vous ou un de vos proches a besoin de soin, nous sommes là pour ça (aide à la toilette, aide au lever, aide au coucher, aide aux repas, etc.) Le règlement s'effectue en CESU, vous bénéficiez donc d'une réduction d'impôts.",
+        "contact": "leffetdusoin@gmail.com",
+        "website": "./website/leffet_du_soin.jpg",
+        "video": ""
+    },
+    {
+        "icon": "synerpa.png",
+        "name": "SYNERPA Domicile",
+        "title": "",
+        "description": "Créé en juin 2001, le SYNERPA est la 1ère Confédération de l’hébergement, de l’aide et de l’accompagnement de la Personne âgée. Il regroupe les principaux acteurs privés français des EHPAD (Établissements d’hébergement pour personnes âgées dépendantes), des Résidences Services Seniors (RSS) avec le SYNERPA RSS, et des Services et Soins à Domicile avec le SYNERPA Domicile. Le SYNERPA rassemble 2 520 adhérents dont 1 800 EHPADs, 120 RSS et 600 agences de Services et Soins à Domicile, soit plus de 200 000 personnes hébergées et aidées et 120 000 salariés.",
+        "contact": "buys@synerpa.fr",
+        "website": "https://www.synerpa.fr",
+        "video": ""
+    },
+    {
+        "icon": "saad.svg",
+        "name": "S.A.A.D du CCAS DE GRAND-QUEVILLY",
+        "title": "",
+        "description": "Les Services d'Aide et d'Accompagnement à Domicile (SAAD) sont une source importante de soutien pour les personnes qui en ont besoin. Les services proposés par les SAAD sont conçus pour aider les personnes à maintenir leur qualité de vie et leur indépendance à la maison. Les prestations d'aide à la personne visent à soutenir les personnes dans les activités ordinaires et les actes essentiels de la vie quotidienne. Cela peut inclure de l'aide pour la toilette, l'habillage et le déshabillage, ainsi que pour les courses. Les Services d'Aide et d'Accompagnement à Domicile (SAAD) peuvent aider les personnes à rester en bonne santé et à maintenir leur dignité en dépit de limitations physiques ou de santé.",
+        "contact": "audrey.geraud@grandquevilly.fr",
+        "website": "https://grandquevilly.fr/actions-et-competences/seniors",
+        "video": ""
+    },
+    {
+        "icon": "una.png",
+        "name": "UNA",
+        "title": "Notre engagement, votre bien-être",
+        "description": "UNA a à cœur d’intervenir pour produire des services professionnels, respectueux de la personne. Chaque bénéficiaire est particulier et singulier, nous nous efforçons d’apporter une réponse adaptée, sur mesure. Notre action s’inscrit dans une politique de respect et empreint de bienveillance formalisés par la charte de bien traitance de la personne âgée dépendante. Un large éventail de services : fort du 1er réseau de l’aide, des soins et des services à domicile, UNA Solidarité Normande (Le Havre et Rouen) vous accompagne vous, vos proches et vos enfants au quotidien.",
+        "contact": "alison.villain@una.solidarite-normande.fr",
+        "website": "https://www.una.solidarite-normande.fr",
+        "video": ""
+    },
+    {
+        "icon": "nos_memoires_vives.png",
+        "name": "Nos memoires vives",
+        "title": "Changer nos représentations de la vieillesse",
+        "description": "Inutiles, oisifs, coûteux, lents, dépendants, malades... Voici les images bien souvent associées à la vieillesse. Une vision d’un âge obsolescent, qui ne nous donne pas la possibilité en tant que proches, professionnels ou citoyens, de saisir que la vieillesse est une chance. Être vieux, ce mot devenu quasiment tabou, est aussi synonyme de savoirs, d’expériences, d’histoires, de prise de recul. Un rôle de transmetteur qui nous permet de connaître notre passé pour mieux appréhender notre futur. En écoutant nos aînés, en leur donnant la parole, nous souhaitons favoriser un regard sensible, juste et humaniste de la vieillesse et ainsi réconcilier notre société avec nos vieux. Le récit de vie comme moyen d’action : Avec une méthodologie issue des sciences humaines, nous mettons les outils de captation sonore au service de différents projets : rencontres intergénérationnelles, collecte de mémoire patrimoniale, réalisation de documentaires d’intervention sociale.",
+        "contact": "pauline@nosmemoiresvives.fr",
+        "website": "https://nosmemoiresvives.fr",
+        "video": ""
+    },
+    {
+        "icon": "Retravailler.webp",
+        "name": "RETRAVAILLER",
+        "title": "",
+        "description": "Retravailler accompagne salariés et demandeurs d’emploi tout au long de leur parcours professionnel dans le cadre de prestations financées par les OPCA, Pôle Emploi, l’Agefiph, les Conseils Régionaux et Départementaux…",
+        "contact": "",
+        "website": "https://www.retravailler.org/nos-metiers",
+        "video": ""
+    },
+    {
+        "icon": "archimaide76.png",
+        "name": "Interm'Aide Emploi",
+        "title": "",
+        "description": "Interm’Aide Emploi est l’association d’insertion par l’activité économique basée au cœur du quartier prioritaire des Hauts de Rouen, à l’écoute des partenaires pour monter des projets innovants d’inclusion sociale à destination des demandeurs d’emplois de la Métropole.",
+        "contact": "dir.intermaide.emploi@wanadoo.fr",
+        "website": "https://archimaide76.fr/intermaide-emploi",
+        "video": ""
+    },
+    {
+        "icon": "CNAV.png",
+        "name": "CNAV",
+        "title": "Conseil National auto-proclamé de la Vieillesse",
+        "description": "Les vieux et les futurs vieux/vieilles ne sont jamais consultés pour définir l’environnement dans lequel ils souhaitent vieillir. Trop souvent les décisions prises ne prennent pas en compte leur aspiration à vieillir dans le respect de leur indépendance. Trop souvent, la vieillesse n’est appréciée qu’à travers le prisme médical. Il est temps que les choix de société pour les vieux/vieilles en termes d’habitat, de mobilité, de culture, de finance, d’accès aux droits et aux soins soient pris par et avec les premiers intéressés. Créons ensemble un Conseil National auto-proclamé de la Vieillesse (CNAV) pour imposer les vieux comme co-constructeurs des politiques publiques les concernant. Créé en Décembre 2021 à l'initiative de Véronique Fournier, Nicolas Foureur, Eric Favereau et Francis Carrier. Chacun des membres fondateurs sont aussi porteurs de projets associatifs : La maison Vieille, Vieux et chez SOI, Vif-fragiles, GreyPRIDE.",
+        "contact": "",
+        "website": "https://www.cnav-demain.fr",
         "video": ""
     }
 ]

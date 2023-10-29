@@ -4,7 +4,7 @@
 
 	let update = 0;
 
-	let targetDate = new Date('2023-11-13T08:30:00').getTime();
+	let targetDate = new Date('2023-11-13T09:30:00').getTime();
 	let timeRemaining = targetDate - Date.now();
 	let days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
 	let hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
