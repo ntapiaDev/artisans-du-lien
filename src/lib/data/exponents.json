@@ -57,15 +57,6 @@
         "video": "U-8sq1dGq30"
     },
     {
-        "icon": "nutrisens.png",
-        "name": "Nutrisens",
-        "title": "",
-        "description": "Apporter à chaque patient, quelle que soit sa pathologie, la solution nutritionnelle la plus adaptée. Expert de l’alimentation médicale et nutrition clinique, c’est ce qui anime toutes les équipes de Nutrisens. Depuis plus de 10 ans, nous travaillons avec passion pour imaginer des aliments bien pensés, bien préparés et surtout, bons à savourer. Parce que c'est ce qui nous tient à cœur : ensemble, redonnons goût à la nutrition.",
-        "contact": "scormier@nutrisens.fr",
-        "website": "https://www.nutrisens.com",
-        "video": "BAjE-Wg-zyM"
-    },
-    {
         "icon": "LaCigaleEtLaFourmi.png",
         "name": "La cigale et la fourmi",
         "title": "Association La cigale et la fourmi",
@@ -267,15 +258,6 @@
         "video": "tA6dLHlWMD8"
     },
     {
-        "icon": "uniscite.png",
-        "name": "SOLIDARITE SENIORS (SC2S)",
-        "title": "",
-        "description": "S’engager dans le programme Solidarité Seniors que déploie Unis-Cité, c’est rejoindre la mobilisation nationale « Service Civique Solidarité Seniors » (SC2S) qui vise à lutter massivement contre l’isolement des personnes âgées.",
-        "contact": "jduteurtre@sc-solidariteseniors.fr",
-        "website": "https://www.service-civique.gouv.fr/trouver-ma-mission/rouen-solidarite-seniors-sc2s-engage-toi-pour-lutter-contre-lisolement-des-seniors-642fe5c933401b0274423d44",
-        "video": ""
-    },
-    {
         "icon": "animage.png",
         "name": "ANIM’ÂGE",
         "title": "",
@@ -411,15 +393,6 @@
         "video": ""
     },
     {
-        "icon": "synerpa.png",
-        "name": "SYNERPA Domicile",
-        "title": "",
-        "description": "Créé en juin 2001, le SYNERPA est la 1ère Confédération de l’hébergement, de l’aide et de l’accompagnement de la Personne âgée. Il regroupe les principaux acteurs privés français des EHPAD (Établissements d’hébergement pour personnes âgées dépendantes), des Résidences Services Seniors (RSS) avec le SYNERPA RSS, et des Services et Soins à Domicile avec le SYNERPA Domicile. Le SYNERPA rassemble 2 520 adhérents dont 1 800 EHPADs, 120 RSS et 600 agences de Services et Soins à Domicile, soit plus de 200 000 personnes hébergées et aidées et 120 000 salariés.",
-        "contact": "buys@synerpa.fr",
-        "website": "https://www.synerpa.fr",
-        "video": ""
-    },
-    {
         "icon": "saad.svg",
         "name": "S.A.A.D du CCAS DE GRAND-QUEVILLY",
         "title": "",
@@ -447,24 +420,6 @@
         "video": ""
     },
     {
-        "icon": "Retravailler.webp",
-        "name": "RETRAVAILLER",
-        "title": "",
-        "description": "Retravailler accompagne salariés et demandeurs d’emploi tout au long de leur parcours professionnel dans le cadre de prestations financées par les OPCA, Pôle Emploi, l’Agefiph, les Conseils Régionaux et Départementaux…",
-        "contact": "",
-        "website": "https://www.retravailler.org/nos-metiers",
-        "video": ""
-    },
-    {
-        "icon": "archimaide76.png",
-        "name": "Interm'Aide Emploi",
-        "title": "",
-        "description": "Interm’Aide Emploi est l’association d’insertion par l’activité économique basée au cœur du quartier prioritaire des Hauts de Rouen, à l’écoute des partenaires pour monter des projets innovants d’inclusion sociale à destination des demandeurs d’emplois de la Métropole.",
-        "contact": "dir.intermaide.emploi@wanadoo.fr",
-        "website": "https://archimaide76.fr/intermaide-emploi",
-        "video": ""
-    },
-    {
         "icon": "CNAV.png",
         "name": "CNAV",
         "title": "Conseil National auto-proclamé de la Vieillesse",
@@ -472,5 +427,23 @@
         "contact": "",
         "website": "https://www.cnav-demain.fr",
         "video": ""
+    },
+    {
+        "icon": "arche-mc2.png",
+        "name": "Arche MC2",
+        "title": "",
+        "description": "Arche MC2 est le seul éditeur de logiciels présent simultanément dans les secteurs de l’action sociale, de l’insertion professionnelle, de l’aide et du soin à domicile ou en établissement. Sa mission : simplifier le travail des professionnels du soin et de l’accompagnement et redonner ainsi du temps et de l'écoute au bénéfice des personnes âgées et dépendantes pour une société plus digne et désirable. Pour cela, Arche MC2 conçoit et met en œuvre des solutions et services numériques performants intégrant les dernières innovations technologiques pour améliorer la valeur, l’efficacité et la sécurité des professionnels.",
+        "contact": "alissia.julien@arche-mc2.fr",
+        "website": "https://www.arche-mc2.fr",
+        "video": "RP2zkYdaBmY"
+    },
+    {
+        "icon": "SC2S_NORMANDIE.png",
+        "name": "SC2S",
+        "title": "Rejoindre le SC2S pour vivre une mission utile et inoubliable",
+        "description": "SC2S, le Service Civique Solidarité Seniors, te propose de t’engager dans une mission avec pour objectif de rompre l’isolement que vivent les personnes âgées en dynamisant leur quotidien. Les missions, qui ont lieu à domicile ou dans des structures d’accueil collectives (EHPAD, résidences seniors...), sont variées et généralement menées en duo, avec un autre volontaire.",
+        "contact": "jduteurtre@sc-solidariteseniors.fr",
+        "website": "https://www.sc-solidariteseniors.fr",
+        "video": "nfZ4gbMDzKE"
     }
 ]
