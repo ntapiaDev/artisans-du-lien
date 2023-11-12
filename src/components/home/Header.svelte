@@ -16,6 +16,7 @@
 			<li><a href="programme.pdf" class="primary-card" target="_blank">Programme</a></li>
 			<li><a href="exposants" class="primary-card">Exposants</a></li>
 			<li><a href="partenaires" class="primary-card">Partenaires</a></li>
+			<li><a href="plan.pdf" class="primary-card" target="_blank">Plan du salon</a></li>
 			<li class="register">
 				<span class="primary-card">Inscription</span>
 				<div>
@@ -38,6 +39,8 @@
 			<li><a href="programme.pdf" target="_blank">Programme</a></li>
 			<li><a href="exposants">Exposants</a></li>
 			<li><a href="partenaires">Partenaires</a></li>
+			<hr>
+			<li><a href="plan.pdf" target="_blank">Plan du salon</a></li>
 			<hr>
 			<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhgABC-u2llTKw2tGmVNhLKAso-tlce2iHSuAFMt9_V6MG2w/viewform?usp=sf_link" target="_blank">Inscription individuelle</a></li>
 			<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdJpLDOBJmzjWS8IVYRQb3QLHK2QVI4mbO16bUOuAhM5Wa9Hw/viewform?usp=sf_link" target="_blank">Inscription groupe (obligatoire)</a></li>
@@ -115,7 +118,7 @@
 			transition: all 0.3s ease;
 
 			&.active {
-				height: 274px;
+				height: 336px;
 			}
 
 			ul {
