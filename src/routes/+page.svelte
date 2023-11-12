@@ -16,9 +16,9 @@
 		<Header />
 		<Landing />
 		<aside>
-			<div class="countdown_d">
+			<!-- <div class="countdown_d">
 				<Countdown />
-			</div>
+			</div> -->
 			<div class="logos">
 				<img src="logos/normandie.png" alt="" />
 				<img src="logos/fse.png" alt="" />
@@ -26,9 +26,9 @@
 			</div>
 		</aside>
 	</section>
-	<div class="countdown_m">
+	<!-- <div class="countdown_m">
 		<Countdown />
-	</div>
+	</div> -->
 	<section>
 		<Date />
 		<Atrium />
